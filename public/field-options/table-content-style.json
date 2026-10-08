@@ -1,0 +1,56 @@
+{
+  ".text-right": {
+    "text-align": "right"
+  },
+  ".text-left": {
+    "text-align": "left"
+  },
+  ".text-center": {
+    "text-align": "center"
+  },
+  ".text-justify": {
+    "text-align": "justify"
+  },
+  ".panel-text-black": {
+    "color": "#000000"
+  },
+  ".panel-text-white": {
+    "color": "#ffffff"
+  },
+  ".panel-text-maroon": {
+    "color": "#651D32"
+  },
+  ".panel-text-orange": {
+    "color": "#B15533"
+  },
+  ".panel-text-yellow": {
+    "color": "#F3D03E"
+  },
+  ".panel-text-gold": {
+    "color": "#857731"
+  },
+  ".panel-text-light-blue": {
+    "color": "#D5E0EA"
+  },
+  ".panel-text-blue": {
+    "color": "#4F758B"
+  },
+  ".panel-text-dark-gray-blue": {
+    "color": "#7A99AC"
+  },
+  ".panel-text-light-gray-blue": {
+    "color": "#A6BBC8"
+  },
+  ".panel-text-navy": {
+    "color": "#253746"
+  },
+  ".panel-text-dark-gray": {
+    "color": "#333F48"
+  },
+  ".panel-text-gray": {
+    "color": "#555555"
+  },
+  ".panel-text-light-gray": {
+    "color": "#EDEDEE"
+  }
+}

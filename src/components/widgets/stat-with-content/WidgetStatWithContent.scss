@@ -1,0 +1,49 @@
+/**
+ * The content defaults to gray text; its font size, and any color override,
+ * come from the Storyblok rich text options.
+ */
+.c--card-b {
+  display: flex;
+  flex-direction: column;
+  gap: $measure * 3;
+  width: 100%;
+  height: 100%;
+  padding: 0 $measure * 5 0 $measure * 2;
+  border-left: 2px solid $iwiCimaBlue;
+  font-family: var(--font-roboto);
+  word-break: break-word;
+
+  @include media-breakpoint-up(md) {
+    gap: $measure * 5;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    color: $txtNavy;
+
+    @include media-breakpoint-up(md) {
+      font-size: 59px;
+      line-height: 65px;
+    }
+  }
+
+  &__subtitle {
+    &,
+    p,
+    li {
+      color: $txtGray;
+    }
+
+    > * {
+      margin-top: 0;
+      margin-bottom: $measure * 3;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+}

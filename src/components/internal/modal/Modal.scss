@@ -1,0 +1,131 @@
+
+.dialog-overlay {
+  background-color: #333F48E6;
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  // animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  &.white {
+    background-color: $white;
+    @include media-breakpoint-up(md) {
+      background-color: #333F48E6;
+    }
+  }
+}
+
+.dialog-content-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  max-width: 800px;
+  z-index: 10001;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  max-height: 100dvh;
+
+  @include media-breakpoint-up(md) {
+    max-height: 85vh;
+    padding: 25px;
+
+  }
+
+  &.white {
+    padding: 12px 0 0;
+    @include media-breakpoint-up(md) {
+      max-height: 85vh;
+      padding: 25px;
+    }
+    .default-close {
+      border-bottom: 1px solid $iwiGrayBg;
+      @include media-breakpoint-up(md) {
+        border-bottom: none;
+      }
+      button {
+        svg path {
+          fill: $iwiDkNavy;
+        }
+        @include media-breakpoint-up(md) {
+          svg path {
+            fill: $white;
+          }
+        }
+      }
+      button:hover {
+        svg path {
+          fill: $iwiDkGrayBlue;
+        }
+        @include media-breakpoint-up(md) {
+          svg path {
+            fill: $iwiLtBlue;
+          }
+        }
+      }
+    }
+  .dialog-content {
+    padding: 30px;
+    background-color: $white;
+    flex-grow: 0;
+    overflow-y: auto;
+    }
+  }
+}
+.dialog-content {
+  border-radius: 6px;
+  // animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  max-height: 100%;
+}
+
+.dialog-white-background {
+  background-color: white;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+}
+.dialog-content:focus {
+  outline: none;
+}
+.default-close {
+  text-align: right;
+
+  button {
+    background: none;
+    border: none;
+    margin-bottom: 8px;
+    margin-right: 12px;
+  }
+  button:hover {
+    cursor: pointer;
+    svg path {
+      fill: $iwiLtBlue;
+    }
+  }
+}
+
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .dialog-content-wrapper {
+    width: 90vw;
+  }
+}

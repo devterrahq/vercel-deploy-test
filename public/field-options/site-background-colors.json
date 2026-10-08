@@ -1,0 +1,37 @@
+[
+  {
+    "name": "White",
+    "value": "white"
+  },{
+    "name": "Gray",
+    "value": "gray"
+  },{
+    "name": "Light Gray",
+    "value": "light-gray"
+  },{
+    "name": "Light Blue",
+    "value": "light-blue"
+  },{
+    "name": "Blue",
+    "value": "blue"
+  },{
+    "name": "Dark Blue",
+    "value": "dark-blue"
+  },
+  {
+    "name": "CIMA Blue",
+    "value": "cima-blue"
+  },
+  {
+    "name": "Dark Gray",
+    "value": "dark-gray"
+  },
+  {
+    "name": "RMA Orange",
+    "value": "orange"
+  },
+  {
+    "name": "CPWA Maroon",
+    "value": "maroon"
+  }
+]

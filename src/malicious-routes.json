@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/xoso",
+    "check_type": "starts_with"
+  },
+  {
+    "path": "/android",
+    "check_type": "starts_with"
+  },
+  {
+    "path": "/veit",
+    "check_type": "starts_with"
+  },
+  {
+    "path": "/wp-admin",
+    "check_type": "starts_with"
+  },
+  {
+    "path": "/m1",
+    "check_type": "exact"
+  }
+]

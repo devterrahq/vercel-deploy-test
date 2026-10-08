@@ -1,0 +1,36 @@
+.pagination {
+  
+  ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    list-style-type: none;
+  }
+}
+
+.pagination--link {
+  background-color: $bgGray;
+  border-radius: 4px;
+  color: $txtNavy;
+  padding: 6px 10px;
+  text-decoration: none;
+  &:hover {
+    background-color: $bgDarkBlue;
+    color: $txtWhite;
+  }
+}
+.pagination--current {
+  background-color: $bgDarkBlue;
+  color: $txtWhite;
+}
+.pagination--next {
+  background: none;
+  &:hover {
+    background-color: $bgDarkBlue;
+    svg path {
+      fill: $txtWhite;
+    }
+  }
+}
+

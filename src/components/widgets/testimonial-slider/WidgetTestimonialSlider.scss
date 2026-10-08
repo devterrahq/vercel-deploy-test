@@ -1,0 +1,180 @@
+/**
+ * The `__bg-items` "blur gray" layer reproduces Figma node 4587:4809
+ * (IWI • UX-UI). Figma exports its offsets as percentages of the 905×299
+ * frame, which would stretch the artwork on taller cards, so the layer keeps
+ * the frame's resolved pixel box and its items stay relative to it. Figma lets a
+ * cut-out headshot rise above the hexagon, but CMS headshots are regular
+ * photos, so the photo is clipped to a hexagon inset within the navy frame.
+ */
+.c--testimonial-a {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 1px solid rgba($iwiLtBlue, 0.4);
+  border-radius: $border-radius-a;
+  background-color: rgba($iwiLtBlue, 0.2);
+  overflow: hidden;
+  isolation: isolate;
+
+  &__bg-items {
+    position: absolute;
+    top: -331.99px;
+    left: -151.55px;
+    width: 1558.85px;
+    height: 883.22px;
+    z-index: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, $iwiLtBlue, $white 50%);
+    pointer-events: none;
+
+    &__item {
+      position: absolute;
+      inset: 1.42% -12.64% -11.67% 29.51%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      container-type: size;
+      mix-blend-mode: multiply;
+
+      &::before {
+        content: '';
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &__artwork {
+        position: relative;
+        flex: none;
+        width: 100cqh;
+        height: 100cqw;
+        transform: rotate(-90deg) scaleX(-1);
+
+        &::before {
+          content: '';
+          position: absolute;
+          inset: -7.72% -10.27%;
+          background-image: url('/assets/testimonial-slider/blur-hexagon-group.svg');
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+
+      &--second {
+        inset: 48.24% -72.85% -159.91% 37.64%;
+        display: block;
+        container-type: normal;
+        mix-blend-mode: normal;
+
+        &::before {
+          inset: -37.44% -33.21%;
+          background-image: url('/assets/testimonial-slider/blur-hexagon-wide.svg');
+        }
+      }
+
+      &--third {
+        inset: auto;
+        top: -253px;
+        left: -73px;
+        display: block;
+        width: 966px;
+        height: 812px;
+        container-type: normal;
+        mix-blend-mode: normal;
+        transform: scaleY(-1);
+
+        &::before {
+          inset: -86.21% -72.46%;
+          background-image: url('/assets/testimonial-slider/blur-hexagon.svg');
+        }
+      }
+    }
+  }
+
+  &__ft-items {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: $measure * 4;
+    padding: $measure * 3;
+
+    &__bd {
+      margin: 0;
+
+      &__title {
+        margin: 0;
+        font-family: var(--font-roboto-slab);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: $txtNavy;
+      }
+    }
+
+    &__ft {
+      display: flex;
+      align-items: center;
+      gap: $measure * 2;
+
+      &__media-wrapper {
+        position: relative;
+        flex-shrink: 0;
+        width: 69px;
+        height: 82px;
+        background-image: url('/assets/testimonial-slider/hexagon.svg'),
+          url('/assets/testimonial-slider/hexagon-shade.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 68.97px 81.4px;
+
+        &__media {
+          position: absolute;
+          inset: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          mask-image: url('/assets/testimonial-slider/hexagon.svg');
+          mask-mode: alpha;
+          mask-position: center;
+          mask-repeat: no-repeat;
+          mask-size: 62.73px 74.04px;
+        }
+      }
+
+      &__bd {
+        display: flex;
+        flex-direction: column;
+        font-family: var(--font-roboto);
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px;
+        color: $txtNavy;
+        word-break: break-word;
+
+        &__title {
+          font-weight: 700;
+        }
+
+        &__subtitle {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    &__ft-items {
+      padding: $measure * 5;
+
+      &__bd__title {
+        font-size: 28px;
+      }
+    }
+  }
+}

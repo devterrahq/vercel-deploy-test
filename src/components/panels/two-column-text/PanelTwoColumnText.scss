@@ -1,0 +1,13 @@
+.two-column-text-row {
+  >*:not(:first-child) {
+    margin-top: 40px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+.two-column-text-row {
+  >*:not(:first-child) {
+    margin-top: 0px;
+  }
+}
+}

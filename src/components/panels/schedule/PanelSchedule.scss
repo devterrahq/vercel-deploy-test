@@ -1,0 +1,144 @@
+.panel-schedule {
+  &_root {
+    h3 {
+      color: var(--IWI-DK-NAVY, #253746);
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 44px;
+      margin: 0 0 14px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0;
+    }
+  }
+
+  &__top {
+    .schedule_days {
+      padding-top: 35px;
+
+      .col {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          border: 1px solid $iwiDkNavy;
+          text-align: center;
+          border-radius: 10px;
+          height: 64px;
+          width: 100%;
+          background-color: rgba($color: #000000, $alpha: 0);
+          cursor: pointer;
+
+          h4 {
+            font-size: 24px;
+            line-height: 20px;
+            padding: 2px 0 6px;
+            font-weight: 400;
+            margin: 0;
+          }
+
+          p {
+            margin: 0;
+            color: $iwiDkNavy;
+            line-height: 20px;
+            font-size: 16px;
+          }
+        }
+
+        button:hover,
+        button.active {
+          background-color: $iwiDkNavy;
+
+          h4 {
+            color: $iwiYellow;
+          }
+
+          p {
+            color: white;
+          }
+        }
+      }
+    }
+
+    .schedule_tracks {
+      > h4 {
+        padding-top: 35px;
+        color: $iwiDkNavy;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        margin: 0;
+      }
+
+      &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 24px;
+
+        button {
+          border-radius: 5px;
+          height: 32px;
+          cursor: pointer;
+          padding: 6px 12px;
+          text-align: center;
+          border-radius: 5px;
+          min-width: 75px;
+          font-size: 16px;
+          font-weight: 400;
+          border: 1px solid var(--track-color);
+          background-color: rgba($color: #000000, $alpha: 0);
+
+          p {
+            color: $iwiDkNavy;
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 11px;
+              width: 11px;
+              margin-left: 6px;
+            }
+          }
+        }
+
+        button:hover,
+        button.active {
+          background-color: var(--track-color);
+
+          p {
+            color: black;
+            font-size: 16px;
+            line-height: 20px;
+
+            &.light-text {
+              color: white;
+            }
+
+            svg {
+              height: 11px;
+              width: 11px;
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .schedule-divider {
+    margin-top: 40px;
+  }
+}
+
+.schedule-empty-filter {
+  display: block;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}

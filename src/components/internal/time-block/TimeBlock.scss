@@ -1,0 +1,272 @@
+.widget-time-block__root {
+  display: block;
+  width: 100%;
+
+  .widget-time-block-title {
+    font-family: var(--font-roboto-slab);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: $iwiDkGrayBlue;
+    margin-top: 40px;
+  }
+
+  .widget-time-block-subtitle {
+    :nth-child(n) {
+      font-family: var(--font-roboto-slab);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+    }
+  }
+
+  .time-block-wrapper {
+    position: relative;
+    max-width: 956px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid $iwiGray;
+    border-radius: 10px;
+    margin-top: 40px;
+    overflow: hidden;
+
+    &.animate {
+      &[data-state='open'] {
+        animation: slideDown 300ms ease-in-out;
+
+        .time-block-fade {
+          animation: timeblockToggleDown 300ms ease-in-out;
+        }
+
+        button {
+          animation: buttonFadeDown 300ms ease-in-out;
+        }
+      }
+
+      &[data-state='closed'] {
+        animation: slideUp 300ms ease-in-out;
+
+        .time-block-fade {
+          animation: timeblockToggleUp 300ms ease-in-out;
+        }
+
+        .time-block-toggle {
+          button {
+            animation: buttonFadeUp 300ms ease-in-out;
+          }
+        }
+      }
+    }
+
+    &[data-state='open'] {
+      .time-block-toggle {
+        button {
+          color: $iwiDkNavy;
+          background-color: transparent;
+        }
+      }
+    }
+
+    &[data-state='closed'] {
+      max-height: calc(384px + 64px);
+
+      @include media-breakpoint-up(md) {
+        max-height: 384px;
+      }
+
+      .time-block-fade {
+        height: 100px;
+        background: linear-gradient(rgba(0, 0, 0, 0), $white);
+      }
+
+      .time-block-toggle {
+        button {
+          background-color: $iwiDkNavy;
+          color: $white;
+        }
+      }
+    }
+
+    .time-tabs {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      @include media-breakpoint-up(md) {
+        flex-direction: row;
+      }
+
+      .left-tab {
+        background: var(--track-color);
+        padding: 15px 26px;
+
+        p {
+          font-family: var(--font-roboto-slab);
+          font-size: 18px;
+          line-height: 28px;
+          color: $white;
+
+          @include media-breakpoint-up(md) {
+            font-size: 24px;
+            line-height: 32px;
+          }
+        }
+      }
+
+      .right-tab {
+        flex: 1;
+        background-color: $iwiDkNavy;
+        padding: 15px 26px;
+
+        p {
+          font-family: var(--font-roboto-slab);
+          font-size: 18px;
+          line-height: 28px;
+          color: $white;
+
+          @include media-breakpoint-up(md) {
+            font-size: 24px;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+
+    .time-block-content {
+      height: 100%;
+      overflow: hidden;
+
+      .session-title {
+        width: 100%;
+        background-color: $iwiGrayBg;
+        padding: 16px 26px;
+
+        :nth-child(n) {
+          margin: 0;
+          line-height: 32px;
+        }
+
+        .time-block-title-text {
+          font-family: var(--font-roboto-slab);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+        }
+        .time-block-title-important {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+        }
+        @include media-breakpoint-up(md) {
+          padding: 23px 48px;
+
+          :nth-child(n) {
+            margin: 0;
+            line-height: 32px;
+          }
+
+          .time-block-title-text {
+            font-family: var(--font-roboto-slab);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+          }
+          .time-block-title-important {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+          }
+        }
+      }
+
+      .session-body {
+        width: 100%;
+        height: 100%;
+        padding: 30px 48px 72px;
+
+        .session-body-description {
+          margin-top: 62px;
+
+          > div {
+            margin-top: 70px;
+          }
+        }
+      }
+    }
+
+    .time-block-toggle-wrap {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+
+      .time-block-toggle {
+        background-color: white;
+        text-align: center;
+
+        button {
+          padding: 6px 16px;
+          text-decoration: none;
+          border-radius: 5px;
+          height: 34px;
+          margin-top: 5px;
+          margin-bottom: 28px;
+          outline: 0;
+        }
+      }
+    }
+  }
+}
+
+@keyframes slideDown {
+  from {
+    max-height: 384px;
+  }
+  to {
+    max-height: var(--timeblock-body-height-open);
+  }
+}
+@keyframes slideUp {
+  from {
+    max-height: var(--timeblock-body-height-open);
+  }
+  to {
+    max-height: 384px;
+  }
+}
+@keyframes timeblockToggleUp {
+  from {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+  to {
+    background: linear-gradient(rgba(0, 0, 0, 0), $white);
+  }
+}
+@keyframes timeblockToggleDown {
+  from {
+    background: linear-gradient(rgba(0, 0, 0, 0), $white);
+  }
+  to {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+}
+@keyframes buttonFadeDown {
+  0% {
+    background-color: $iwiDkNavy;
+  }
+  60% {
+    background-color: $white;
+  }
+}
+@keyframes buttonFadeUp {
+  0% {
+    background-color: $white;
+  }
+  100% {
+    background-color: $iwiDkNavy;
+  }
+}

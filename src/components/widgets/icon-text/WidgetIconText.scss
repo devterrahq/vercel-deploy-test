@@ -1,0 +1,26 @@
+.widget-icon-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+
+  a.btn {
+    margin-bottom: 4px;
+  }
+  a.btn + p {
+    margin-top: 0px;
+  }
+  .widget-icon-text-content {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  &.widget-icon-text-vertical {
+    flex-direction: column;
+  }
+  &-icon{
+    min-width: 80px;
+    text-align: center;
+  }
+}

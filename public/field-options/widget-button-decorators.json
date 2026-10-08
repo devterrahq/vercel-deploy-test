@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Right Arrow",
+    "value": "right_arrow"
+  },
+  {
+    "name": "Open In New",
+    "value": "open_in_new"
+  },
+  {
+      "name": "Download",
+      "value": "download"
+  },
+  {
+    "name": "Video Play Arrow",
+    "value": "video_play_arrow"
+  },
+  {
+    "name": "Place",
+    "value": "place"
+  },
+  {
+    "name": "Account Circle",
+    "value": "account_circle"
+  }
+]

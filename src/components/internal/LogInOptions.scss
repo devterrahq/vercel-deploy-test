@@ -1,0 +1,33 @@
+.login-opts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+
+  &_btn {
+    display: inline-block;
+
+    &_internal-container {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+    }
+
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    &.btn {
+      border: 1px solid #d0d5dd;
+    }
+
+    &.btn:not(:disabled):hover {
+      text-decoration: none;
+      background-color: #f9fafb;
+    }
+  }
+}

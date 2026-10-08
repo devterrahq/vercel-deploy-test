@@ -1,0 +1,10 @@
+.widget-image__root {
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: var(--horizontal-position);
+
+  img {
+    height: auto;
+  }
+}

@@ -1,0 +1,128 @@
+.article-listing--wrapper {
+  >.article-item {
+    border-top: 1px solid $black;
+    margin: 32px 0px;
+  }
+  >.article-item:first-child {
+    margin-top: 0px;
+  }
+  >.article-item:last-child {
+    padding-bottom: 32px;
+    border-bottom: 1px solid $black;
+  }
+}
+
+.article-no-listings {
+  text-align: center;
+  padding-top: 32px;
+  font-style: italic;
+}
+
+// Shared
+.article-detailed--headline, .article-condensed--headline {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+// Condensed
+.article-condensed {
+  .article-condensed--date {
+    color: $iwiDkGrayBlue;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .article-condensed--lead {
+    max-width: 624px;
+  }
+}
+
+// Detailed
+.article-detailed {
+  --var-article-detailed-spacing: 16px;
+  @include media-breakpoint-up(md) {
+    --var-article-detailed-spacing: 24px;
+  }
+  .article-detailed--headline {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    @include media-breakpoint-up(md) {
+      margin-top: 40px;
+    }
+  }
+  .article-detailed--date {
+    margin-bottom: 16px;
+  }
+  .article-detailed--byline {
+     // margin-top: var(--var-article-detailed-spacing);
+    p {
+      margin: 0;
+    }
+  }
+  .article-detailed--content {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+      gap: 40px;
+    }
+  }
+  .article-detailed--content-no-photo {
+    width: 100%;
+    display: block;
+  }
+  .article-detailed--thumbnail {
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    @include media-breakpoint-up(md) {
+      width: 200px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 270px;
+    }
+    &.display-mobile {
+      display: block;
+      margin-top: 32px;
+      @include media-breakpoint-up(md) {
+        display: none;
+      }
+    }
+    &.display-desk {
+      display: none;
+      @include media-breakpoint-up(md) {
+        display: block;
+      }
+    }
+  }
+  .article-detailed--img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .article-detailed--byline p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  .article-detailed--date {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .article-share-icons {
+    margin: var(--var-article-detailed-spacing) 0px;
+    padding-bottom: 0px;
+  }
+  .article-detailed--lead-wrapper {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "alignleft": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img,audio,video",
+    "attributes": {
+      "class": "text-left"
+    }
+  },
+  "aligncenter": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img,audio,video",
+    "attributes": {
+      "class": "text-center"
+    }
+  },
+  "alignright": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img,audio,video",
+    "attributes": {
+      "class": "text-right"
+    }
+  },
+  "alignfull": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img,audio,video",
+    "attributes": {
+      "class": "text-justify"
+    }
+  },
+  "textcolorblack": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-black"
+    }
+  },
+  "textcolorwhite": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-white"
+    }
+  },
+  "textcolormaroon": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-maroon"
+    }
+  },
+  "textcolororange": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-orange"
+    }
+  },
+  "textcoloryellow": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-yellow"
+    }
+  },
+  "textcolorgold": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-gold"
+    }
+  },
+  "textcolorlightblue": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-light-blue"
+    }
+  },
+  "textcolorblue": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-blue"
+    }
+  },
+  "textcolordarkgrayblue": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-dark-gray-blue"
+    }
+  },
+  "textcolorlightgrayblue": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-light-gray-blue"
+    }
+  },
+  "textcolornavy": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-navy"
+    }
+  },
+  "textcolordarkgray": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-dark-gray"
+    }
+  },
+  "textcolorgray": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-gray"
+    }
+  },
+  "textcolorlightgray": {
+    "inline": "span",
+    "selector": "*",
+    "attributes": {
+      "class": "panel-text-light-gray"
+    }
+  }
+}

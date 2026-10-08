@@ -1,0 +1,217 @@
+section.panel-hero {
+  position: relative;
+  overflow: hidden;
+
+  .panel-hero-honeycomb {
+    display: none;
+  }
+  .panel-hero-image {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .panel-hero-pill {
+    margin-bottom: 2 * $measure;
+
+    + * {
+      margin-top: 0;
+    }
+  }
+  .panel-hero-pill .c--pill-a {
+    padding: 6px 16px;
+    border-radius: 100px;
+    background-color: rgba($iwiLtBlue, 0.6);
+    font-family: var(--font-roboto);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: $txtNavy;
+    text-transform: capitalize;
+  }
+  .content-col {
+    // padding-top: 32px;
+    // padding-bottom: 40px;
+  }
+}
+
+section.panel-hero.certification {
+  .certification-svg {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    z-index: 210;
+
+    svg {
+      width: 125px;
+      height: auto;
+    };
+  }
+}
+
+@include media-breakpoint-up(md) {
+  section.panel-hero {
+    overflow: hidden;
+
+    .panel-hero-image {
+      position: absolute;
+      top: 0px;
+      right: 0;
+      width: 65%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .content-col {
+      background-color: $bgWhite;
+      position: relative;
+      z-index: 210;
+      &::after {
+        content: ' ';
+        position: absolute;
+        left: calc(100% - 1px);
+        top: 0;
+        height: 100%;
+        width: 120px;
+        background: linear-gradient(90deg, #fff 1%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 95%);
+        z-index: 200;
+      }
+    }
+
+    .content-wrapper {
+      position: relative;
+      z-index: 200;
+    }
+
+    .panel-hero-honeycomb {
+      display: block;
+      position: absolute;
+      top: 13px;
+      right: 200px;
+      z-index: 190;
+    }
+  }
+
+  section.panel-hero.certification {
+    .content-col {
+      padding-top: 0px;
+    }
+
+    .certification-svg {
+      position: relative;
+      left: 0px;
+      margin-bottom: 24px;
+
+      svg {
+        width: 220px;
+        height: auto;
+      }
+    }
+  }
+}
+
+.panel-hero-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65%;
+  height: 100%;
+  z-index: 100;
+  overflow: hidden;
+
+  .panel-hero-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+  }
+
+  /* To hide the controls of an embedded YouTube video that aren't hidden with controls=0, showinfo was deprecated */
+  /* Note - this doesn't fix the issue on mobile when pausing or onload for YT specifically */
+  .panel-hero-yt-video-container {
+    position: relative;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+
+    iframe {
+      width: 300%;
+      height: 100%;
+      margin-left: -100%;
+    }
+  }
+
+  .panel-hero-vimeo-container {
+    position: relative;
+    top: 0;
+  }
+
+  .embed-background {
+    pointer-events: none;
+  }
+
+  .video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+.play-pause-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 110;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  &.paused::before {
+    content: '►';
+  }
+
+  &.playing::before {
+    content: '❚❚';
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .panel-hero-video {
+    position: relative;
+    top: auto;
+    width: 100%;
+    height: auto;
+
+    .embed-background {
+      position: relative;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .panel-hero-content {
+    position: relative;
+    margin-top: 16px;
+  }
+}

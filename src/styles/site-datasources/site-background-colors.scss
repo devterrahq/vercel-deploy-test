@@ -1,0 +1,24 @@
+// This should directly match /public/field-options/site-text-colors.json
+$site-background-colors: (
+  white: $bgWhite,
+  gray: $bgGray,
+  light-gray: $bgLightGray,
+  dark-gray: $bgDarkGray,
+  light-blue: $bgLightBlue,
+  blue: $bgBlue,
+  dark-blue: $bgDarkBlue,
+  orange: $bgOrange,
+  maroon: $bgMaroon,
+) !default;
+@each $color, $value in $site-background-colors {
+  .panel-bg-#{$color} {
+    background-color: #{$value};
+  }
+}
+
+@each $color, $value in $site-background-colors {
+  .background-#{$color} {
+    background-color: #{$value};
+  }
+}
+

@@ -1,0 +1,22 @@
+/**
+ * Datasource: Richtext Classes
+ * To keep a record of all the richtext classes needs and functions.
+*/
+.small-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.to-navy {
+  color: $iwiDkNavy;
+}
+
+.normal-weight-navy {
+  font-weight: 400;
+  color: $iwiDkNavy;
+}
+
+// This class is covered by the site-text-colors classes
+// .text-blue {
+//   color: $txtBlue;
+// }

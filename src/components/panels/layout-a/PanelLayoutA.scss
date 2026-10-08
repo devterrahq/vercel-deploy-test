@@ -1,0 +1,168 @@
+/**
+ * `__bg-items` holds the optional background image and is positioned against
+ * the panel root, so it spans the full section over the default gradient. On
+ * desktop the video grows to match the height of the card list, never
+ * shrinking below 16:9.
+ */
+.panel-layout-a_root {
+  position: relative;
+  padding-top: $measure * 5;
+  padding-bottom: $measure * 5;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, $white, $bgLightBlueMist 79.104%, $bgLightBlueHaze);
+
+  @include media-breakpoint-up(md) {
+    padding-top: $measure * 15;
+    padding-bottom: $measure * 15;
+  }
+}
+
+.c--layout-a {
+  &__bg-items {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+
+    &__media {
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  &__ft-items {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: $measure * 4;
+
+    &__item-left {
+      display: flex;
+      flex-direction: column;
+      gap: $measure * 3;
+
+      &__bd {
+        display: flex;
+        flex-direction: column;
+        gap: $measure * 2;
+        word-break: break-word;
+
+        &__title {
+          margin: 0;
+          font-family: var(--font-roboto-slab);
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 1.1;
+          color: $txtNavy;
+        }
+
+        &__content {
+          font-family: var(--font-roboto);
+          font-size: 18px;
+          line-height: 24px;
+          color: rgba($txtNavy, 0.85);
+
+          p,
+          li {
+            font-size: inherit;
+            line-height: inherit;
+            color: inherit;
+          }
+
+          > * {
+            margin-top: 0;
+            margin-bottom: $measure * 2;
+          }
+
+          > :last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      &__media-wrapper {
+        position: relative;
+        flex: 1 1 auto;
+        aspect-ratio: 16 / 9;
+        border-radius: $border-radius-a;
+        overflow: hidden;
+
+        > *,
+        .ratio {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        button.thumbnail {
+          display: block;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          background: none;
+          cursor: pointer;
+
+          svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 1;
+            translate: -50% -50%;
+          }
+        }
+
+        .video-thumbnail,
+        video,
+        iframe {
+          display: block;
+          width: 100%;
+          max-width: none;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    &__list-group {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      &__item + &__item {
+        border-top: 1px solid $iwiLtBlue;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    &__ft-items__item-left {
+      gap: $measure * 6;
+
+      &__bd__title {
+        font-size: 44px;
+        line-height: 44px;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &__ft-items {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: $measure * 8;
+
+      &__item-left {
+        flex: 652 1 0;
+        align-self: stretch;
+        min-width: 0;
+      }
+
+      &__list-group {
+        flex: 424 1 0;
+        min-width: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+
+$site-border-colors: (
+      white: $bgWhite,
+      black: $black,
+      gray: $bgGray,
+      light-gray: $bgLightGray,
+      dark-gray: $bgDarkGray,
+      light-blue: $bgLightBlue,
+      light-gray-blue: $iwiLtGrayBlue,
+      blue: $bgBlue,
+      dark-blue: $bgDarkBlue,
+      maroon: $bgMaroon,
+      orange: $bgOrange,
+    ) !default;
+
+.widget-countdown-timer {
+
+  &__root {
+    min-height: 120px;
+    padding: 30px 0 30px 0;
+    background-color: $white;
+    color: $iwiDkNavy;
+
+    @each $color, $value in $site-border-colors {
+      &.border-color-#{$color} {
+        border: 2px solid #{$value};
+        border-radius: 10px;
+        padding: 30px 30px;
+      }
+    }
+
+    &.transparent-background{
+      background-color: transparent;
+    }
+
+    @include media-breakpoint-up(md) {
+      max-width: 450px
+    }
+
+  }
+
+  &__header {
+    text-align: var(--countdown-align, left);
+    & > p {
+      font-family: var(--font-roboto-slab);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      padding-bottom: 16px;
+      color: $iwiDkNavy;
+    }
+  }
+
+  &__body {
+
+    display: flex;
+    justify-content: var(--countdown-align, center);
+
+    line-height: 36px;
+    .timer-section {
+      text-align: center;
+
+      & :first-child {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 24px;
+        display: inline;
+
+        @include media-breakpoint-up(sm) {
+          font-size: 48px;
+        }
+
+      }
+      & :nth-child(2) {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        display: block;
+        text-transform: uppercase;
+      }
+
+       > .timer-not-loaded {
+        opacity: 0;
+      }
+      > .timer-loaded {
+        animation: timeFadeIn 100ms ease-in;
+        animation-fill-mode: forwards;
+      }
+    }
+
+    .timer-colon {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 24px;
+      @include media-breakpoint-up(sm) {
+        font-size: 48px;
+      }
+
+      &:before {
+        content: "";
+        padding-left: 8px;
+        @include media-breakpoint-up(sm) {
+          padding-left: 10px;
+        }
+      }
+      &:after {
+        content: "";
+        padding-right: 8px;
+        @include media-breakpoint-up(sm) {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
+@keyframes timeFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

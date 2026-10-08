@@ -1,0 +1,48 @@
+[
+  {
+     "name":"Default",
+     "value":{
+        "default":{
+           "value": "12"
+        },
+        "sm":{
+           "value": "12"
+        },
+        "md":{
+           "value": "4"
+        },
+        "lg":{
+           "value": "4"
+        },
+        "xl":{
+           "value": null
+        },
+        "xxl":{
+           "value": null
+        }
+     }
+  },
+  {
+     "name":"Show Advanced Controls",
+     "value":{
+        "default":{
+           "value": null
+        },
+        "sm":{
+           "value": null
+        },
+        "md":{
+           "value": null
+        },
+        "lg":{
+           "value": null
+        },
+        "xl":{
+           "value": null
+        },
+        "xxl":{
+           "value": null
+        }
+     }
+  }
+]

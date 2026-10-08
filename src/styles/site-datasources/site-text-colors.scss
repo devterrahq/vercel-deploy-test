@@ -1,0 +1,45 @@
+// This should directly match /public/field-options/site-text-colors.json
+$site-text-colors: (
+  black: $black,
+  white: $white,
+
+  maroon: $txtMaroon,
+  orange: $txtOrange,
+  yellow: $txtYellow,
+  gold: $txtGold,
+  light-blue: $iwiLtBlue,
+  blue: $txtBlue,
+  dark-gray-blue: $iwiDkGrayBlue,
+  light-gray-blue: $iwiLtGrayBlue,
+  dark-navy: $txtNavy,
+  navy: $txtNavy,
+  blue-white: $iwiHeaderBlue,
+  dark-gray: $iwiDkGray,
+  gray: $txtGray,
+  light-gray: $iwiGrayBg,
+) !default;
+// Hopefully remove this, don't use panel-text-color classes anymore use the text-color classes below
+@each $color, $value in $site-text-colors {
+  .panel-text-#{$color} {
+    color: #{$value};
+    
+    p, h1, h2, h3, h4, h5, h6 {
+      color: #{$value};
+    }
+  }
+}
+@each $color, $value in $site-text-colors {
+  h1.text-#{$color},h2.text-#{$color},h3.text-#{$color},h4.text-#{$color},h5.text-#{$color},h6.text-#{$color} {
+    color: #{$value};
+  }
+  .text-#{$color} {
+    color: #{$value};
+    
+    p, h1, h2, h3, h4, h5, h6 {
+      color: #{$value};
+    }
+    hr {
+      border-color: #{$value}
+    }
+  }
+}

@@ -1,0 +1,225 @@
+.widget-profile-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(rgba($iwiDkGray, .04) 80%, rgba($iwiDkGray, .2));
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  &__text {
+    height: 100%;
+    padding: 0 5px;
+    p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      margin: 0;
+      line-height: 24px;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: $iwiDkGrayBlue;
+      font-style: normal;
+      font-weight: 700;
+      margin: 0 0 10px;
+      line-height: 24px;
+    }
+    .person-title,
+    .person-cert {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      margin: 0;
+    }
+
+    .person-title {
+      // margin-bottom: 12px;
+    }
+  }
+
+  &__img {
+    order: -1;
+    padding-bottom: 22px;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+}
+
+.widget-profile-card__button {
+  padding-left: 5px;
+  .btn {
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: left;
+    padding: 0;
+    font-size: 14px !important;
+
+    span {
+      position: relative;
+      bottom: 1px;
+    }
+  }
+}
+
+.widget-profile-card-modal-close {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  top: -11dvh;
+  background-color: $iwiDkGray;
+
+  @include media-breakpoint-up('md') {
+    top: auto;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  & > div {
+    margin: auto;
+    height: calc(100px + 5dvh);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 12px;
+
+    @include media-breakpoint-up('md') {
+      padding: 0;
+      max-width: 700px;
+      max-height: 1019px;
+      height: auto;
+    }
+
+    @include media-breakpoint-up('lg') {
+      max-width: 936px;
+    }
+
+    @include media-breakpoint-up('xl') {
+      max-width: 1152px;
+    }
+
+    button {
+      background-color: rgba(0, 0, 0, 0);
+      position: relative;
+      top: 2dvh;
+      z-index: 10002;
+      @include media-breakpoint-up('md') {
+        top: 0;
+      }
+    }
+  }
+}
+
+.widget-profile-card-modal {
+  width: 100vw;
+  height: calc(100dvh - 11dvh);
+  position: relative;
+  left: calc(-50vw + 50%);
+  top: -11dvh;
+
+  @include media-breakpoint-up('md') {
+    top: 0;
+    max-height: 80vh;
+  }
+
+  &__outer-container {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+    padding-bottom: 128px;
+
+    @include media-breakpoint-up('md') {
+      max-width: 700px;
+      max-height: 1019px;
+    }
+
+    @include media-breakpoint-up('lg') {
+      max-width: 936px;
+    }
+
+    @include media-breakpoint-up('xl') {
+      max-width: 1152px;
+    }
+
+    // &__outer-scroll {
+    //   overflow-y: scroll;
+    //   width: 100%;
+    //   height: 100%;
+    // }
+
+    .widget-profile-card-modal__profile-container,
+    .widget-profile-card-modal__schedule-container {
+      display: flex;
+      flex-direction: column;
+      padding: 33px 12px 64px;
+
+      @include media-breakpoint-up('sm') {
+        padding: 33px 24px;
+        flex-direction: row;
+      }
+
+      @include media-breakpoint-up('md') {
+        padding: 33px 36px;
+      }
+
+      @include media-breakpoint-up('lg') {
+        padding: 33px 96px;
+      }
+
+      .widget-profile-card-modal__text {
+        padding: 22px 0 0;
+
+        @include media-breakpoint-up('sm') {
+          padding: 22px 20px 0;
+        }
+
+        @include media-breakpoint-up('md') {
+          padding: 22px 30px 0;
+        }
+
+        @include media-breakpoint-up('lg') {
+          padding: 22px 40px 0;
+        }
+
+        h3 {
+          margin: 0;
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 44px;
+        }
+
+        .person-cert {
+          margin: 0;
+        }
+
+        .person-title {
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+
+        .person-bio {
+          margin-top: 30px;
+        }
+      }
+
+      .widget-profile-card-modal__img {
+        padding-top: 40px;
+        order: -1;
+        width: 100%;
+        min-width: 200px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

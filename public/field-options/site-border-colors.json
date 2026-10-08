@@ -1,0 +1,36 @@
+[
+  {
+    "name": "White",
+    "value": "white"
+  },{
+    "name": "Black",
+    "value": "black"
+  },{
+    "name": "Gray",
+    "value": "gray"
+  },{
+    "name": "Dark Gray",
+    "value": "dark-gray"
+  },{
+    "name": "Light Gray",
+    "value": "light-gray"
+  },{
+    "name": "Light Blue",
+    "value": "light-blue"
+  },{
+    "name": "Light Gray Blue",
+    "value": "light-gray-blue"
+  },{
+    "name": "CIMA Blue",
+    "value": "blue"
+  },{
+    "name": "Dark Navy",
+    "value": "dark-blue"
+  },{
+    "name": "CPWA Maroon",
+    "value": "maroon"
+  },{
+    "name": "RMA Orange",
+    "value": "orange"
+  }
+]

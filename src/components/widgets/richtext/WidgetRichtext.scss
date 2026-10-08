@@ -1,0 +1,14 @@
+// --------------------------------------------- //
+// === Widget Richtext Specific Datasources === //
+// ------------------------------------------- //
+
+/// Content Text Colors
+$content-text-colors: (
+  black: $black,
+  white: $white,
+) !default;
+@each $color, $value in $content-text-colors {
+  .widget-richtext-text-#{$color} {
+    color: #{$value};
+  }
+}

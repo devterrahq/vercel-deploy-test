@@ -1,0 +1,46 @@
+$gray-out-price: #A9A9A9;
+$strikethrough: rgba(247, 222, 120, 0.80);
+
+
+.widget-conference-price__root {
+
+  & > p {
+    font-family: var(--font-roboto-slab);
+    margin-bottom: 0%;
+    font-weight: 700;
+
+    &.conference-size-large {
+      font-size: 36px;
+      line-height: 32px;
+      .full-price {
+        text-decoration-thickness: 8px;
+      }
+    }
+    &.conference-size-medium {
+      font-size: 28px;
+      line-height: 32px;
+      .full-price {
+        text-decoration-thickness: 6px;
+      }
+    }
+    &.pconference-size-small {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    .price span {
+      font-size: 65%;
+      vertical-align: super;
+    }
+    .price::after {
+      content: " ";
+    }
+
+  }
+
+  .full-price {
+    margin-right: 16px;
+    color: $gray-out-price;
+    text-decoration: line-through;
+    text-decoration-color: $strikethrough;
+  }
+}

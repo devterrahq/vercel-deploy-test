@@ -1,0 +1,9 @@
+.nestable-columns {
+  display: flex;
+
+  @include media-breakpoint-up(md) {
+    > * {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,137 @@
+$comparison-matrix-media-query: 600px;
+
+.comparison-matrix--subhead {
+  margin-top: -20px;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: $comparison-matrix-media-query) {
+  .comparison-matrix--subhead {
+    display: none;
+    visibility: hidden;
+  }
+}
+.comparison-matrix {
+  width: 100%;
+  --cell-padding: 10px 18px;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  &--intro-row-item {
+    h1,h2,h3,h4,h5,h6{
+      font-weight: 700;
+      margin: 8px 0px;
+    }
+    .btn {
+      font-size: 14px;
+    }
+  }
+  
+  &--heading-row {
+    th, td {
+      padding: var(--cell-padding);
+    }
+    th {
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+    }
+    @media (min-width: $comparison-matrix-media-query) {
+      th {
+        text-align: left;
+      }
+    }
+  }
+  &--content-row {
+    min-height: 99px;
+
+    &:nth-child(even) td, &:nth-child(even) th {
+      background-color: #eeeeee;
+    }
+    &:nth-child(odd) td, &:nth-child(odd) th {
+      background-color: #f7f7f7;
+    }
+    @media (min-width: $comparison-matrix-media-query) {
+      &:nth-child(even) th, &:nth-child(odd) th {
+        background-color: transparent;
+      }
+    }
+    
+    th, td {
+      padding: var(--cell-padding);
+    }
+    th, th p {
+      text-align: left;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    td, td p {
+      text-align: center;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    th, td {
+      ul {
+        margin: 5px 0px;
+        padding-left: 20px;
+      }
+      p {
+        margin: 5px 0px;
+      }
+    }
+    .comparison-matrix--content-row-heading {
+      p {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      >p {
+        text-align: center;
+      }
+      @media (min-width: $comparison-matrix-media-query) {
+        p {
+          font-weight: 400;
+        }
+        >p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+// IWI
+.comparison-matrix {
+  &--heading-row {
+    background-color: #253746;
+    color: #fff;
+  }
+  td:not(:last-child), &--intro-row-item:not(:last-child) {
+    border-right: 1px solid #cacaca;
+  }
+  .signature_gold {
+    color: $iwiSignatureGold;
+    
+    p, h1, h2, h3, h4, h5, h6 {
+      color: $iwiSignatureGold;
+    }
+  }
+  .elite_orange {
+    color: $txtOrange;
+    
+    p, h1, h2, h3, h4, h5, h6 {
+      color: $txtOrange;
+    }
+  }
+  @media (min-width: $comparison-matrix-media-query) {
+    &--content-row {  
+      &:nth-child(even) td.featured-col {
+        background-color: #f6f6f6;
+      }
+      &:nth-child(odd) td.featured-col {
+        background-color: #fafafa;
+      }
+    }
+  }
+}

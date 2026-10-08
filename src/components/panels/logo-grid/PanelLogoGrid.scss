@@ -1,0 +1,11 @@
+.panel-panel-logo-grid_root--new-design {
+  .panel-header > div {
+    margin-bottom: $measure * 5;
+  }
+
+  @include media-breakpoint-up(md) {
+    .panel-header > div {
+      margin-bottom: $measure * 10;
+    }
+  }
+}

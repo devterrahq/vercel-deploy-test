@@ -1,0 +1,309 @@
+$large-header-colors: (
+  blue: $iwiDkGrayBlue,
+  cima: $iwiCimaBlue,
+  cpwa: $cpwaMaroon,
+  rma: $rmaRust,
+) !default;
+.widget-image-text-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+
+    .widget-image-text-card__content-wrapper {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      h3 a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &.default {
+      .widget-image-text-card__content-wrapper {
+        h3, h3 a {
+          margin: 0;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          color: $iwiDkNavy;
+
+          @include media-breakpoint-down("md") {
+              font-size: 20px;
+              line-height: 20px;
+              margin: 16px 0 0;
+          }
+        }
+        .widget-image-text-card__content {
+          p {
+            margin: 12px 0 0;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            color: $black;
+          }
+        }
+      }
+      .widget-image-text-card__links {
+        a {
+          margin-top: 12px;
+        }
+        a:first-of-type {
+          margin-top: 24px;
+        }
+      }
+    }
+
+    &.course-cards {
+      .widget-image-text-card__content-wrapper {
+        h3, h3 a {
+            margin: 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            color: $iwiDkNavy;
+        }
+        .widget-image-text-card__content {
+          p {
+            margin: 14px 0 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            color: $black;
+          }
+        }
+      }
+      .widget-image-text-card__links {
+        a {
+          margin-top: 16px;
+        }
+        a:first-of-type {
+          margin-top: 24px;
+        }
+      }
+    }
+
+    &.blue-headline-small {
+      .widget-image-text-card__content-wrapper {
+          h3, h3 a {
+            margin: 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            color: $iwiDkNavy;
+        }
+        .widget-image-text-card__content {
+          p {
+            margin: 14px 0 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            color: $black;
+          }
+        }
+      }
+      .widget-image-text-card__links {
+        a {
+          margin-top: 24px;
+        }
+        a:first-of-type {
+          margin-top: 24px;
+        }
+      }
+    }
+
+    @each $color, $value in $large-header-colors {
+
+      &.#{$color}-headline-large {
+      .widget-image-text-card__content-wrapper {
+          h3, h3 a {
+            margin: 0;
+            font-family: var(--font-roboto-slab);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px;
+            color: $value;
+        }
+        .widget-image-text-card__content {
+          p {
+            margin: 16px 0 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            color: $black;
+          }
+        }
+      }
+      .widget-image-text-card__links {
+        a {
+          margin-top: 16px;
+        }
+        a:first-of-type {
+          margin-top: 18px;
+        }
+      }
+    }
+  }
+    &.image-and-link {
+      .widget-image-text-card__links {
+        a {
+          margin-top: 16px;
+        }
+        a:first-of-type {
+          margin-top: 0;
+        }
+      }
+    }
+
+    &.navy-headline {
+      .widget-image-text-card__content-wrapper {
+        h3, h3 a {
+              margin: 0;
+              font-family: var(--font-roboto-slab);
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 20px;
+              color: $iwiDkNavy;
+        }
+        .widget-image-text-card__content {
+          p {
+            margin: 18px 0 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            color: $black;
+          }
+        }
+      }
+      .widget-image-text-card__links {
+        a {
+          margin-top: 16px;
+        }
+        a:first-of-type {
+          margin-top: 18px;
+        }
+      }
+    }
+
+    &.center {
+      text-align: center;
+      a {
+        text-align: center;
+      }
+    }
+
+    &.right {
+        text-align: right;
+        a {
+          text-align: right;
+        }
+    }
+
+    &.left {
+        text-align: left;
+        a {
+          text-align: left;
+        }
+    }
+
+    &.justify {
+        text-align: justify;
+        a {
+          text-align: justify;
+        }
+    }
+
+    .widget-image-text-card__content-wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+        .widget-image-text-card__headline {
+          a {
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+
+    }
+
+    .widget-image-text-card__banner {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+
+      p {
+        margin: 0;
+        padding: 3px 0;
+        font-weight: 700;
+        line-height: 24px;
+      }
+
+      &.navy-banner {
+        background-color: $iwiDkNavy;
+        p {
+          color: $iwiYellow;
+        }
+      }
+
+      &.yellow-banner {
+        background-color: $iwiYellow;
+        p {
+          color: $iwiDkNavy;
+        }
+      }
+
+      &.navy-white-banner {
+        background-color: $iwiDkNavy;
+        p {
+          color: $white;
+        }
+      }
+
+      &.white-banner {
+        background-color: $white;
+        p {
+          color: $iwiDkNavy;
+        }
+
+      }
+    }
+
+    .widget-image-text-card__image {
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      order: -1;
+
+      img {
+          display: block;
+          width: 100%;
+          height: auto;
+          margin-bottom: 20px;
+      }
+    }
+    &.has-image-border {
+      img {
+        outline: 1px solid black;
+      }
+    }
+}

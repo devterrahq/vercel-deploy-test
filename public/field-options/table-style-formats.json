@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Block",
+    "items": [
+      {
+        "title": "Paragraph",
+        "format": "p"
+      },
+      {
+        "title": "Header 1",
+        "format": "h1"
+      },
+      {
+        "title": "Header 2",
+        "format": "h2"
+      },
+      {
+        "title": "Header 3",
+        "format": "h3"
+      },
+      {
+        "title": "Header 4",
+        "format": "h4"
+      },
+      {
+        "title": "Header 5",
+        "format": "h5"
+      },
+      {
+        "title": "Header 6",
+        "format": "h6"
+      }
+    ]
+  },
+  {
+    "title": "Text Color",
+    "items": [
+      {
+        "title": "Black",
+        "format": "textcolorblack"
+      },
+      {
+        "title": "White",
+        "format": "textcolorwhite"
+      },
+      {
+        "title": "CPWA Maroon",
+        "format": "textcolormaroon"
+      },
+      {
+        "title": "RMA Orange",
+        "format": "textcolororange"
+      },
+      {
+        "title": "Yellow",
+        "format": "textcoloryellow"
+      },
+      {
+        "title": "Gold",
+        "format": "textcolorgold"
+      },
+      {
+        "title": "Light Blue",
+        "format": "textcolorlightblue"
+      },
+      {
+        "title": "CIMA Blue",
+        "format": "textcolorblue"
+      },
+      {
+        "title": "Dark Gray Blue",
+        "format": "textcolordarkgrayblue"
+      },
+      {
+        "title": "Light Gray Blue",
+        "format": "textcolorlightgrayblue"
+      },
+      {
+        "title": "Navy",
+        "format": "textcolornavy"
+      },
+      {
+        "title": "Dark Gray",
+        "format": "textcolordarkgray"
+      },
+      {
+        "title": "Gray",
+        "format": "textcolorgray"
+      },
+      {
+        "title": "LightGray",
+        "format": "textcolorlightgray"
+      }
+    ]
+  }
+]

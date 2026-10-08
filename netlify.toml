@@ -1,0 +1,7 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+# [[redirects]]
+#   from = "/*"
+#   to = "https://investment-and-wealth-institute-storyblok.vercel.app/:splat"
+#   status = 301
+#   force = true

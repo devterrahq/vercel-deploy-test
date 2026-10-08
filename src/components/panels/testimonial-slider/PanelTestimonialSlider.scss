@@ -1,0 +1,76 @@
+/**
+ * The active slide starts at the container's left edge while the previous and
+ * next slides overflow the container up to the viewport edges; the panel root
+ * clips that overflow so the page never scrolls horizontally.
+ */
+.panel-testimonial-slider_root {
+  padding-top: $measure * 5;
+  padding-bottom: $measure * 5;
+  overflow-x: clip;
+
+  @include media-breakpoint-up(md) {
+    padding-top: $measure * 15;
+    padding-bottom: $measure * 10;
+
+    .panel-header > div {
+      margin-bottom: $measure * 8;
+    }
+  }
+}
+
+.c--slider-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $measure * 3;
+
+  &__bd {
+    width: 100%;
+    overflow: visible;
+
+    .swiper-slide {
+      display: flex !important;
+      width: calc(100% - #{$measure * 4});
+      height: auto !important;
+      margin: 0;
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none;
+    }
+  }
+
+  &__list-group {
+    display: flex;
+    gap: $measure;
+
+    &__item {
+      display: block;
+      width: 11px;
+      height: 11px;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      background-color: $iwiLtBlue;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &--is-active {
+        background-color: $iwiDkNavy;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    gap: $measure * 5;
+
+    &__bd .swiper-slide {
+      width: 81%;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    &__bd .swiper-slide {
+      width: 905px;
+    }
+  }
+}

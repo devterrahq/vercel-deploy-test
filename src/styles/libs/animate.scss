@@ -1,0 +1,62 @@
+@import 'animate.css';
+
+.animate__hidden {
+  visibility: hidden;
+}
+
+// Animation offset
+$animate-delay: 100ms;
+@for $i from 1 through 25 {
+  .animation-offset-100 {
+    & > :nth-child(#{$i}) {
+      animation-name: inherit;
+      animation-delay: $animate-delay * $i;
+      animation-duration: var(--animate-duration);
+      animation-fill-mode: both;
+    }
+  }
+}
+
+@for $i from 1 through 25 {
+  .animation-offset-200 {
+    & > :nth-child(#{$i}) {
+      animation-name: inherit;
+      animation-delay: $animate-delay * 2 * $i;
+      animation-duration: var(--animate-duration);
+      animation-fill-mode: both;
+    }
+  }
+}
+
+@for $i from 1 through 25 {
+  .animation-offset-300 {
+    & > :nth-child(#{$i}) {
+      animation-name: inherit;
+      animation-delay: $animate-delay * 3 * $i;
+      animation-duration: var(--animate-duration);
+      animation-fill-mode: both;
+    }
+  }
+}
+
+@for $i from 1 through 25 {
+  .animation-offset-400 {
+    & > :nth-child(#{$i}) {
+      animation-name: inherit;
+      animation-delay: $animate-delay * 4 * $i;
+      animation-duration: var(--animate-duration);
+      animation-fill-mode: both;
+    }
+  }
+}
+
+@for $i from 1 through 25 {
+  .animation-offset-500 {
+    & > :nth-child(#{$i}) {
+      animation-name: inherit;
+      animation-delay: $animate-delay * 5 * $i;
+      animation-duration: var(--animate-duration);
+      animation-fill-mode: both;
+    }
+  }
+}

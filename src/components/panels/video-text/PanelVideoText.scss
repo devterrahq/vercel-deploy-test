@@ -1,0 +1,44 @@
+.panel-video-text {
+  .row {
+    row-gap: 30px;
+  }
+  button.thumbnail {
+    position: relative;
+    border: none;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    &::after {
+      content: ' ';
+      background-color: $white;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: opacity 0.15s ease;
+    }
+    &:hover {
+      cursor: pointer;
+      svg.no-path-opacity-on-hover path {
+        opacity: 1;
+      }
+    }
+    &:hover::after {
+      opacity: 0.5;
+    }
+  
+    svg {
+      position: absolute;
+      top: calc(50% - 37.5px);
+      left: calc(50% - 32px);
+      z-index: 1000;
+    }
+  }
+  
+  .video-thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
+}

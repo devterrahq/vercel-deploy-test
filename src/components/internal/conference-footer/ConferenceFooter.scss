@@ -1,0 +1,15 @@
+.conference-footer-copyright > div {
+  margin-bottom: 6px;
+  text-align: center;
+  @include media-breakpoint-up(md) {
+    text-align: right;
+  }
+  @include media-breakpoint-up(lg) {
+    text-align: right;
+    margin-right: 5px;
+  }
+}
+
+.conference-footer-link-group-description {
+  margin-bottom: 15px;
+}

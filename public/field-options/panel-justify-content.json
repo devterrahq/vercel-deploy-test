@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Left",
+    "value": "left"
+  },
+  {
+    "name": "Center",
+    "value": "center"
+  },
+  {
+    "name": "Right",
+    "value": "right"
+  },
+  {
+    "name": "Around",
+    "value": "around"
+  },
+  {
+    "name": "Between",
+    "value": "between"
+  },
+  {
+    "name": "Evenly",
+    "value": "evenly"
+  }
+]

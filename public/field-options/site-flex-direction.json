@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Row",
+    "value": "row"
+  },
+  {
+    "name": "Column",
+    "value": "column"
+  },
+  {
+    "name": "Row Reverse",
+    "value": "row-reverse"
+  },
+  {
+    "name": "Column Reverse",
+    "value": "column-reverse"
+  }
+]

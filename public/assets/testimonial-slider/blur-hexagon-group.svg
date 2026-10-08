@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1173.78" height="1495.78" viewBox="0 0 1173.78 1495.78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 6" style="mix-blend-mode:multiply" opacity="0.5" filter="url(#filter0_f_0_242)">
+<path id="Vector" d="M420.586 100L268.493 244.126L268.493 458.907L420.586 602.094L570.367 457.968L570.367 245.065L420.586 100Z" fill="#D5E0EA"/>
+<path id="Vector_2" d="M756.612 100L604.52 244.126L604.52 458.907L756.612 602.094L906.393 457.968L906.393 245.065L756.612 100Z" fill="#D5E0EA"/>
+<path id="Vector_3" d="M420.586 893.682L268.493 1037.81L268.493 1252.59L420.586 1395.78L570.367 1251.65L570.367 1038.75L420.586 893.682Z" fill="#D5E0EA"/>
+<path id="Vector_4" d="M756.612 893.682L604.519 1037.81L604.519 1252.59L756.612 1395.78L906.393 1251.65L906.393 1038.75L756.612 893.682Z" fill="#D5E0EA"/>
+<path id="Vector_5" d="M588.046 502.303L435.954 646.429L435.954 861.21L588.046 1004.4L737.827 860.271L737.827 647.368L588.046 502.303Z" fill="#D5E0EA"/>
+<path id="Vector_6" d="M923.999 502.303L771.906 646.429L771.906 861.21L923.999 1004.4L1073.78 860.271L1073.78 647.368L923.999 502.303Z" fill="#D5E0EA"/>
+<path id="Vector_7" d="M252.093 502.301L100 646.427L100 861.207L252.093 1004.39L401.873 860.268L401.873 647.366L252.093 502.301Z" fill="#D5E0EA"/>
+</g>
+<defs>
+<filter id="filter0_f_0_242" x="-3.46641e-06" y="8.28833e-07" width="1173.78" height="1495.78" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_0_242"/>
+</filter>
+</defs>
+</svg>

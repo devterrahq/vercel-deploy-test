@@ -1,0 +1,14 @@
+[
+  {
+    "name": "25% of Panel Height",
+    "value": "1/4"
+  },
+  {
+    "name": "50% of Panel Height",
+    "value": "1/2"
+  },
+  {
+    "name": "75% of Panel Height",
+    "value": "3/4"
+  }
+]

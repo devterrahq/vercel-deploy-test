@@ -1,0 +1,16 @@
+ul.author-row {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.person-image {
+  >img {
+    border-radius: 5px;
+  }
+  >ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+  }
+}

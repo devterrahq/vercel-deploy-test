@@ -1,0 +1,10 @@
+.component-article-topics {
+  .component-article-topics--item {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

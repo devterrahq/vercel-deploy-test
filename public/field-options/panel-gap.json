@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Extra Small",
+    "value": "1"
+  },
+  {
+    "name": "Small",
+    "value": "2"
+  },
+  {
+    "name": "Medium",
+    "value": "3"
+  },
+  {
+    "name": "Large",
+    "value": "4"
+  },
+  {
+    "name": "Extra Large",
+    "value": "5"
+  }
+]

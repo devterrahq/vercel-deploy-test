@@ -1,0 +1,163 @@
+[
+  {
+    "name": "1",
+    "value": {
+      "default": {
+        "value": "1"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": "1"
+      },
+      "lg": {
+        "value": "1"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "2",
+    "value": {
+      "default": {
+        "value": "1"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": "2"
+      },
+      "lg": {
+        "value": "2"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "3",
+    "value": {
+      "default": {
+        "value": "1"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": "2"
+      },
+      "lg": {
+        "value": "3"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "4",
+    "value": {
+      "default": {
+        "value": "1"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": "2"
+      },
+      "lg": {
+        "value": "4"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "5",
+    "value": {
+      "default": {
+        "value": "1"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": "3"
+      },
+      "lg": {
+        "value": "5"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "6",
+    "value": {
+      "default": {
+        "value": "2"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": "4"
+      },
+      "lg": {
+        "value": "6"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "Show Advanced Controls",
+    "value": {
+      "default": {
+        "value": null
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": null
+      },
+      "lg": {
+        "value": null
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  }
+]

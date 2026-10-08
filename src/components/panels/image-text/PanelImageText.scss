@@ -1,0 +1,12 @@
+
+.panel-image-text {
+  &_image {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .row {
+    row-gap: 30px;
+  }
+}

@@ -1,0 +1,24 @@
+// === Bootstrap Mixins === //
+@import 'node_modules/bootstrap/scss/vendor/rfs';
+@import 'node_modules/bootstrap/scss/mixins/breakpoints'; // https://getbootstrap.com/docs/5.3/layout/breakpoints/
+@import 'node_modules/bootstrap/scss/mixins/grid'; // needed for grid system to build
+@import 'node_modules/bootstrap/scss/mixins/container'; // needed for container system to build
+@import 'node_modules/bootstrap/scss/mixins/utilities'; // needed for utilities to build
+
+@mixin createUtils($utilMap) {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    // Generate media query if needed
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+      // Loop over each utility property
+      @each $key, $utility in $utilMap {
+        // The utility can be disabled with `false`, thus check if the utility is a map first
+        // Only proceed if responsive media queries are enabled or if it's the base media query
+        @if type-of($utility) == 'map' and (map-get($utility, responsive) or $infix == '') {
+          @include generate-utility($utility, $infix);
+        }
+      }
+    }
+  }
+}

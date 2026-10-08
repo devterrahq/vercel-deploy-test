@@ -1,0 +1,22 @@
+.widget-recent-articles-listing {
+  .widget-recent-articles-listing--heading {
+    margin-top: 0px;
+  }
+  .widget-recent-articles-listing--list {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .widget-recent-articles-listing--item {
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 20px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .widget-recent-articles-listing--item:not(:first-child) {
+    margin-top: 18px;
+  }
+}

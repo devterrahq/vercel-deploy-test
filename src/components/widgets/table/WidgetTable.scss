@@ -1,0 +1,46 @@
+.widget-table {
+  display: grid;
+  width: 100%;
+  margin-top: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  table + p {
+    display: none;
+  }
+
+  th,
+  td {
+    padding: 1rem;
+  }
+
+  table {
+    overflow-x: scroll;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  &_main table {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  &_clone {
+    z-index: 3;
+    margin-top: 0;
+  }
+
+  &__sticky {
+    table thead th:first-child {
+      z-index: 2;
+      position: sticky;
+      left: 0;
+    }
+
+    table tbody th {
+      z-index: 1;
+      position: sticky;
+      left: 0;
+    }
+  }
+}

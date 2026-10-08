@@ -1,0 +1,174 @@
+// === Panel Default Styling === //
+.panel-root {
+  position: relative;
+}
+
+.panel-top-bar,
+.panel-bottom-bar {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.panel-top-bar {
+  top: 0;
+  left: 0;
+}
+
+.panel-bottom-bar {
+  bottom: 0;
+  left: 0;
+}
+
+// ---------------------------------- //
+// === Panel Specific Datasources === //
+// ---------------------------------- //
+
+$panel-padding: (
+  sm: 20px,
+  md: 40px,
+  lg: 80px,
+) !default;
+@each $size, $value in $panel-padding {
+  .panel-pt-#{$size} {
+    padding-top: #{$value/2};
+  }
+  .panel-pb-#{$size} {
+    padding-bottom: #{$value/2};
+  }
+  @include media-breakpoint-up(md) {
+    .panel-pt-#{$size} {
+      padding-top: #{$value};
+    }
+    .panel-pb-#{$size} {
+      padding-bottom: #{$value};
+    }
+  }
+}
+
+.panel-header,
+.panel-footer {
+  & > div {
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+  }
+}
+
+
+$panel-background-colors: (
+  black: $black,
+  white: $white,
+  gray: $iwiGrayBg,
+  dark-gray: $iwiGray,
+  cima-blue: $iwiCimaBlue,
+  light-blue: $bgLightBlue,
+) !default;
+@each $color, $value in $panel-background-colors {
+  .panel-bg-#{$color} {
+    background-color: #{$value};
+  }
+}
+
+// $panel-text-colors: (
+//   black: $black,
+//   white: $white,
+// ) !default;
+// @each $color, $value in $panel-text-colors {
+//   .panel-text-#{$color} {
+//     color: #{$value};
+//   }
+// }
+
+$panel-bar-heights: (
+  '1\\/4': 25%,
+  '1\\/2': 50%,
+  '3\\/4': 75%,
+) !default;
+@each $size, $value in $panel-bar-heights {
+  .panel-h-#{$size} {
+    height: #{$value};
+  }
+}
+
+$panel-align-items: (
+  top: flex-start,
+  center: center,
+  bottom: flex-end,
+  stretch: stretch,
+) !default;
+@each $key, $value in $panel-align-items {
+  .panel-align-items-#{$key} {
+    align-items: #{$value};
+  }
+}
+
+$panel-justify-content: (
+  left: flex-start,
+  center: center,
+  right: flex-end,
+  around: space-around,
+  between: space-between,
+  evenly: space-evenly,
+) !default;
+@each $key, $value in $panel-justify-content {
+  .panel-justify-content-#{$key} {
+    justify-content: #{$value};
+  }
+}
+
+$panel-spacers: (
+  1: 8px,
+  2: 16px,
+  3: 24px,
+  4: 32px,
+  5: 40px,
+  6: 48px,
+);
+
+$gap-utils: (
+  'panel-row-gap': (
+    responsive: true,
+    property: row-gap,
+    class: panel-row-gap,
+    values: $panel-spacers,
+  ),
+  'panel-column-gap': (
+    responsive: true,
+    property: column-gap,
+    class: panel-column-gap,
+    values: $panel-spacers,
+  ),
+);
+@include createUtils($gap-utils);
+
+.panel-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  &.panel-column-center {
+    justify-content: center;
+  }
+  &.panel-column-bottom {
+    justify-content: flex-end;
+  }
+  .panel-column-content {
+    h1:first-child,
+    h2:first-child,
+    h3:first-child,
+    h4:first-child,
+    h5:first-child,
+    h6:first-child {
+      margin-top: 0px;
+    }
+  }
+}
+
+.panel-header > div {
+  margin-bottom: 32px;
+}
+
+.panel-footer > div {
+  margin-top: 32px;
+}

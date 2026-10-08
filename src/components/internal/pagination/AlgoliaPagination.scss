@@ -1,0 +1,37 @@
+.ais-pagination {
+  &--wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+  }
+  button {
+    background-color: $bgGray;
+    border-radius: 4px;
+    border: none;
+    color: $txtNavy;
+    padding: 6px 10px;
+    &:not(:disabled) {
+      cursor: pointer;
+      &:hover {
+        background-color: $bgDarkBlue;
+        color: $txtWhite;
+      }
+    }
+  }
+  button.ais-pagination--selected {
+    background-color: $bgDarkBlue;
+    color: $txtWhite;
+  }
+  button.ais-pagination--next-page, button.ais-pagination--prev-page {
+    background: none;
+
+    &:disabled svg path {
+      fill: $iwiGray;
+    }
+    &:not(:disabled):hover {
+      svg path {
+        fill: #fff;
+      }
+    }
+  }
+}

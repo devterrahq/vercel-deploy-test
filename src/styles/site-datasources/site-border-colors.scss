@@ -1,0 +1,21 @@
+// This should directly match /public/field-options/site-text-colors.json
+$site-border-colors: (
+  white: $bgWhite,
+  black: $black,
+  gray: $bgGray,
+  light-gray: $bgLightGray,
+  dark-gray: $bgDarkGray,
+  light-blue: $bgLightBlue,
+  blue: $bgBlue,
+  dark-blue: $bgDarkBlue,
+  maroon: $bgMaroon,
+  orange: $bgOrange,
+  light-gray-blue: $iwiLtGrayBlue,
+) !default;
+
+@each $color, $value in $site-border-colors {
+  .border-color-#{$color} {
+    border-color: #{$value};
+  }
+}
+

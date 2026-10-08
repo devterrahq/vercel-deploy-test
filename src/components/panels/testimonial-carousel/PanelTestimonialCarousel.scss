@@ -1,0 +1,309 @@
+.panel-testimonial-carousel_root {
+  position: relative;
+  overflow: visible;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  .panel-container {
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.panel-testimonial-carousel {
+  .widget-testimonial {
+    position: relative;
+    z-index: 155;
+    margin: 0px;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 100px auto;
+    grid-template-areas:
+      "heading heading"
+      "quote quote"
+      "photo signature";
+    &.no-photo {
+      grid-template-areas:
+        "heading heading"
+        "quote quote"
+        "signature signature";
+    }
+  }
+
+  .testimonial-headline {
+    grid-area: heading;
+    margin-bottom: 20px;
+  }
+  .testimonial-heading {
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .testimonial-disclaimer {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .testimonial-photo {
+    grid-area: photo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      border-radius: 5px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .testimonial-quote {
+    grid-area: quote;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: var(--font-roboto-slab);
+    >p {
+      font-family: var(--font-roboto-slab);
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  .testimonial-signature {
+    grid-area: signature;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+    h1,h2,h3,h4,h5,h6 {
+      font-family: var(--font-roboto);
+    }
+  }
+
+  .signature-text-name {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .signature-text-title {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .panel-testimonial-carousel {
+    .widget-testimonial {
+      grid-template-columns: 135px auto;
+    }
+
+    .testimonial-quote > p {
+      line-height: 30px;
+      font-size: 20px;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .panel-testimonial {
+    position: relative;
+
+    .testimonial-honeycomb {
+      display: block;
+    }
+
+    .widget-testimonial {
+      grid-template-columns: 135px auto;
+      column-gap: 40px;
+      row-gap: 20px;
+      grid-template-areas:
+        ". heading"
+        "photo quote"
+        ". signature";
+
+        &.no-photo {
+          grid-template-columns: 1fr;
+          grid-template-areas:
+            "heading"
+            "quote"
+            "signature";
+        }
+    }
+
+    .testimonial-signature {
+      display: block;
+    }
+
+    .testimonial-quote > p {
+      line-height: 36px;
+      font-size: 24px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .panel-testimonial-carousel {
+    .testimonial-quote {
+      margin-bottom: 0px;
+    }
+
+    .testimonial-headline {
+      margin-bottom: 40px;
+    }
+
+    .testimonial-signature {
+      margin-top: 32px;
+    }
+
+    .testimonial-quote > p {
+      line-height: 36px;
+      font-size: 24px;
+    }
+  }
+}
+
+// -------------------
+// Honeycomb SVG Colors
+// -------------------
+.panel-bg-dark-blue .testimonial-honeycomb svg path {
+  stroke: #3f505f;
+}
+
+.panel-bg-blue .testimonial-honeycomb svg path {
+  stroke: #638599;
+}
+
+.panel-bg-light-blue .testimonial-honeycomb svg path {
+  stroke: #D2DDE4;
+}
+
+
+// -------------------
+// Testimonial Carousel - Styles and Swiper Overrides
+// -------------------
+.swiper-container-with-bg {
+  position: relative;
+  overflow: hidden;
+
+  .swiper-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+
+  .swiper {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    min-height: 600px;
+  }
+
+  .swiper-pagination-bullet {
+    // background-color: #3f505f;
+
+    &-active {
+      background-color: #3f505f;
+    }
+  }
+}
+
+.swiper-slide {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+  margin: 30px 0 45px;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  transform: scale(0.75) !important;
+}
+
+.testimonial-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 36px 48px;
+  background-color: $iwiDkNavy; // default color if one is not selected in Storyblok
+
+  // -------------------
+  // Testimonial Card/Slide - Colors
+  // -------------------
+  &.background-dark-gray-blue {
+    background-color: $iwiDkGrayBlue;
+  }
+
+  &.background-light-gray-blue {
+    background-color: $iwiLtGrayBlue;
+  }
+
+  &.background-dark-navy {
+    background-color: $iwiDkNavy;
+  }
+
+  &.background-black {
+    background-color: $bgBlack;
+  }
+
+  &.background-white {
+    background-color: $bgWhite;
+  }
+
+  &.background-light-blue {
+    background-color: $bgLightBlue;
+  }
+
+  &.background-gray {
+    background-color: $bgGray;
+  }
+
+  &.background-light-gray {
+    background-color: $iwiGrayBg;
+  }
+
+  &.background-light-blue, &.background-blue-white {
+    background-color: $iwiLtBlue;
+  }
+
+  &.background-dark-gray {
+    background-color: $bgDarkGray;
+  }
+
+  &.background-maroon {
+    background-color: $cpwaMaroon;
+  }
+
+  &.background-orange {
+    background-color: $rmaRust;
+  }
+
+  &.background-yellow {
+    background-color: $iwiYellow;
+  }
+
+  &.background-gold {
+    background-color: $iwiSignatureGold;
+  }
+
+  &.background-blue {
+    background-color: $iwiCimaBlue;
+  }
+}

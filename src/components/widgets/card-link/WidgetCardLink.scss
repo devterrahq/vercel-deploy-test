@@ -1,0 +1,96 @@
+.c--card-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: $measure;
+  width: 100%;
+  height: 100%;
+  padding: $measure * 2 0;
+  color: inherit;
+  text-decoration: none;
+  word-break: break-word;
+
+  &__hd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__title {
+      flex: 1 1 0;
+      min-width: 0;
+      margin: 0;
+      font-family: var(--font-roboto-slab);
+      font-size: 22px;
+      font-weight: 400;
+      line-height: normal;
+      color: $txtInk;
+    }
+
+    &__icon {
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      margin-left: auto;
+      border-radius: $border-radius-a;
+      background-color: $iwiLtBlue;
+      transition: background-color 0.2s ease;
+
+      &::before {
+        content: '';
+        width: 22px;
+        height: 22px;
+        background-color: $iwiCimaBlue;
+        mask-image: url('/assets/card-link/arrow.svg');
+        mask-repeat: no-repeat;
+        mask-size: 100% 100%;
+        rotate: -45deg;
+        transition:
+          background-color 0.2s ease,
+          rotate 0.2s ease;
+      }
+    }
+  }
+
+  &__content {
+    max-width: 334px;
+    font-family: var(--font-roboto);
+    font-size: 16px;
+    line-height: normal;
+    color: rgba($txtNavy, 0.85);
+
+    p,
+    li {
+      font-size: inherit;
+      line-height: inherit;
+      color: inherit;
+    }
+
+    > * {
+      margin-top: 0;
+      margin-bottom: $measure;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: $measure * 2;
+  }
+
+  &:hover,
+  &:focus-visible {
+    .c--card-c__hd__icon {
+      background-color: $iwiDkNavy;
+
+      &::before {
+        background-color: $white;
+        rotate: 0deg;
+      }
+    }
+  }
+}

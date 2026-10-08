@@ -1,0 +1,35 @@
+.breadcrumbs {
+  margin: 10px 0px;
+  ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+  .breadcrumb-item {
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .breadcrumb-item:not(:first-child) {
+    margin-left: 3px;
+  }
+  .breadcrumb-item:not(:first-child)::before {
+    content: '/';
+    margin-right: 3px;
+  }
+}
+// IWI Specific 
+.breadcrumbs {
+  font-size: 12px;
+  line-height: 16px;
+  color: $black;
+
+  a {
+    color: $black;
+  }
+}

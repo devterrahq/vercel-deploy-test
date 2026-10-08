@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Small",
+    "value": "button-sm"
+  },
+  {
+    "name": "Large",
+    "value": "button-lg"
+  }
+]

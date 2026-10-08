@@ -1,0 +1,13 @@
+.panel-three-column-text {
+
+  .column-richtext-wrapper {
+
+    > h1, > h2, h3 {
+      margin-top: 36px;
+    }
+
+    & > :first-child {
+      margin-top: 0;
+    }
+  }
+}

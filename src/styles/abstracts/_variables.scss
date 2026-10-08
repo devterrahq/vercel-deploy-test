@@ -1,0 +1,97 @@
+// -------------------------------------------------- //
+// Bootstrap Abstracts
+// These are the necessary variables/functions/mixins
+// we need to use the minimal amount of Bootstrap features
+// -------------------------------------------------- //
+@import 'node_modules/bootstrap/scss/functions';
+
+// keep these false to avoid utility classes containing !important
+// and to avoid dark mode styles being generated
+$enable-important-utilities: false;
+$enable-dark-mode: false;
+
+// total number of columns in the grid system
+$grid-columns: 12;
+// controls the following:
+// - left and right padding of the .container class
+// - negative margins on .row class
+$grid-gutter-width: 24px;
+// number of row columns that can be used for .row-cols-* classes
+$grid-row-columns: 6;
+
+// global breakpoints for the site
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// max container widths for each breakpoint
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1140px,
+);
+
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/maps';
+
+// -------------------------------------------------- //
+// Global Site Abstracts
+// These values are used throughout the site and are not specific to any component
+// -------------------------------------------------- //
+
+// === Spacing & Shape === //
+$measure: 0.5rem;
+$border-radius-a: 4px;
+
+// === Site Colors === //
+$black: #000000;
+$white: #ffffff;
+
+// === IWI Brand Colors === //
+$iwiLtBlue: #D5E0EA;
+$iwiYellow: #F3D03E;
+$iwiDkNavy: #253746;
+$iwiDkGrayBlue: #7A99AC;
+$iwiLtGrayBlue: #A6BBC8;
+$iwiHeaderBlue: #F5F7FA;
+$rmaRust: #B15533;
+$cpwaMaroon: #651D32;
+$iwiCimaBlue: #4F758B;
+$iwiDkGray: #333F48;
+$iwiGray: #555555;
+$iwiGrayBg: #EDEDEE;
+$iwiSignatureGold: #857731;
+// === Text Colors === //
+$txtNavy: $iwiDkNavy;
+$txtBlue: $iwiCimaBlue;
+$txtGray: $iwiGray;
+$txtWhite: $white;
+$txtBlack: $black;
+$txtInk: #09100F;
+$txtGold: $iwiSignatureGold;
+$txtOrange: $rmaRust;
+$txtMaroon: $cpwaMaroon;
+$txtYellow: $iwiYellow;
+// === Background Colors === //
+$bgWhite: $white;
+$bgBlack: $black;
+$bgGray: $iwiGrayBg;
+$bgLightGray: #FAFAFA;
+$bgMediumGray: #EAEAEA;
+$bgDarkGray: $iwiGray;
+$bgLightBlue: #E9EFF4;
+$bgLightBlueMist: #EEF2F7;
+$bgLightBlueHaze: #EAEFF5;
+$bgBlue: $iwiCimaBlue;
+$bgDarkBlue: $iwiDkNavy;
+$bgMaroon: $cpwaMaroon;
+$bgOrange: $rmaRust;
+// === Border Colors === //
+$borderGrayBlue: #B5C3CC;

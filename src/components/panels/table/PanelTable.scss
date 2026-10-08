@@ -1,0 +1,64 @@
+.panel-table_wrapper {
+  .widget-table {
+    display: grid;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    table + p {
+      display: none;
+    }
+
+    th,
+    td {
+      padding: 16px;
+      border: 1.5px solid #e7e5e4;
+    }
+
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+      overflow-x: scroll;
+    }
+
+    /* Row Header and Column Header */
+    table thead th,
+    table tbody th {
+      background-color: #d4d4d4;
+    }
+
+    &_main table {
+      width: auto !important;
+      height: auto !important;
+
+      // stripe
+      tbody tr:nth-child(even) {
+        background-color: #fafafa;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #fff;
+      }
+    }
+
+    &_clone {
+      z-index: 3;
+    }
+
+    &__sticky {
+      table thead th:first-child {
+        position: sticky;
+        left: -1px;
+        z-index: 2;
+        background-color: #d4d4d4;
+      }
+
+      table tbody th {
+        position: sticky;
+        left: -1px;
+        background-color: #d4d4d4;
+        z-index: 1;
+      }
+    }
+  }
+}

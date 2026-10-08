@@ -1,0 +1,13 @@
+.panel-divider {
+  >hr {
+    border-width: 1px;
+    border-style: solid;
+    margin: 0;
+  }
+  >hr.panel-divider--medium {
+    border-top-width: 3px;
+  }
+  >hr.panel-divider--thick {
+    border-top-width: 5px;
+  }
+}

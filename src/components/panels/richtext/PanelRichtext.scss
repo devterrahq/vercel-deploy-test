@@ -1,0 +1,45 @@
+.panel-richtext__root {
+  display: flex;
+
+  &.panel-richtext-horizontal {
+    &-start {
+      justify-content: start;
+    }
+    &-center {
+      justify-content: center;
+    }
+    &-end {
+      justify-content: flex-end;
+    }
+  }
+
+  &.panel-richtext-text-align {
+    &-left {
+      text-align: left;
+    }
+    &-center {
+      text-align: center;
+    }
+    &-right {
+      text-align: right;
+    }
+    &-justify {
+      text-align: justify;
+    }
+  }
+
+  &.panel-richtext-vertical {
+    &-stretch {
+      align-items: stretch;
+    }
+    &-top {
+      align-items: top;
+    }
+    &-center {
+      align-items: center;
+    }
+    &-bottom {
+      align-items: bottom;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "All Sizes",
+    "value": "default"
+  },
+  {
+    "name": "SM (≥ 576px)",
+    "value": "sm"
+  },
+  {
+    "name": "MD (≥ 768px)",
+    "value": "md"
+  },
+  {
+    "name": "LG (≥ 992px)",
+    "value": "lg"
+  },
+  {
+    "name": "XL (≥ 1200px)",
+    "value": "xl"
+  },
+  {
+    "name": "XXL (≥ 1400px)",
+    "value": "xxl"
+  }
+]

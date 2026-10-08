@@ -1,0 +1,4412 @@
+[
+  {
+    "from": "/about-us",
+    "to": "/about",
+    "status": 301
+  },
+  {
+    "from": "/about-us/annual-reports",
+    "to": "/about/annual-reports",
+    "status": 301
+  },
+  {
+    "from": "/about-us/awards",
+    "to": "/about/awards",
+    "status": 301
+  },
+  {
+    "from": "/about-us/awards/award-recipients",
+    "to": "/about/awards",
+    "status": 301
+  },
+  {
+    "from": "/about-us/bylaws",
+    "to": "/about/governance/bylaws",
+    "status": 301
+  },
+  {
+    "from": "/about-us/governance",
+    "to": "/about/governance",
+    "status": 301
+  },
+  {
+    "from": "/about-us/governance/board-of-directors",
+    "to": "/about/governance",
+    "status": 301
+  },
+  {
+    "from": "/about-us/history",
+    "to": "/about/iwi-history",
+    "status": 301
+  },
+  {
+    "from": "/about-us/privacy-policy",
+    "to": "/privacy-policy",
+    "status": 301
+  },
+  {
+    "from": "/about-us/purpose,-mission,-values-amp;-objectives",
+    "to": "/about/mission-purpose-value",
+    "status": 301
+  },
+  {
+    "from": "/about-us/request-for-proposal",
+    "to": "/about",
+    "status": 301
+  },
+  {
+    "from": "/about-us/welcome-to-the-investments-wealth-institute",
+    "to": "/about",
+    "status": 301
+  },
+  {
+    "from": "/about-us/welcome-to-the-investments-wealth-institute/certifications-faqs",
+    "to": "/certifications/compare-iwi-certifications",
+    "status": 301
+  },
+  {
+    "from": "/about-us/welcome-to-the-investments-wealth-institute/institute-frequently-asked-questions",
+    "to": "/about",
+    "status": 301
+  },
+  {
+    "from": "/about-us/welcome-to-the-investments-wealth-institute/riia-members-faq",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/aitecima2017",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/cima-toolkit/cima-sample-email-for-clients",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/cima-toolkit/cima-sample-email-for-prospects",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/frequently-asked-questions",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/general-client-resources",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/helpful-research",
+    "to": "/certifications/market-yourself/understand-what-clients-need-value",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/rma-toolkit/rma-sample-client-email",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/rma-toolkit/rma-sample-client-letter",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/rma-toolkit/rma-website-copy",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/cima-toolkit/cima-sample-letter-for-clients",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/cima-toolkit/cima-sample-website-copy",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/cpwa-toolkit/cpwa-sample-email-for-clients",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/cpwa-toolkit/cpwa-sample-email-for-prospects",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/cpwa-toolkit/cpwa-sample-letter-for-clients",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/cpwa-toolkit/cpwa-sample-website-copy",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/rma-toolkit/rma-sample-press-release",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-va/ethics-guidelines",
+    "to": "/certifications/market-yourself/act-ethically",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-va/helpful-research",
+    "to": "/certifications/market-yourself/understand-what-clients-need-value",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-va/helpful-research/the-research-reports",
+    "to": "/certifications/market-yourself/understand-what-clients-need-value",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-va/knowledge-bank",
+    "to": "/certifications/market-yourself/demonstrate-advanced-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-va/social-media-governance",
+    "to": "/about/governance/standards-and-compliance",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-va/toolkits",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/career-development",
+    "to": "/membership/financial-advisor-career-development",
+    "status": 301
+  },
+  {
+    "from": "/careers",
+    "to": "/institute-careers",
+    "status": 301
+  },
+  {
+    "from": "/certifications/anab-accreditation",
+    "to": "/about/accreditation",
+    "status": 301
+  },
+  {
+    "from": "/certifications/ce-sponsors",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/certifications/professional-development",
+    "to": "/membership/financial-advisor-career-development",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima",
+    "to": "/certifications/cima-certification",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-application-process",
+    "to": "/certifications/cima-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-candidate-profile",
+    "to": "/certifications/cima-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-costs",
+    "to": "/certifications/cima-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-curriculum-overview",
+    "to": "/certifications/cima-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-exam-prep-class",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-faqs",
+    "to": "/certifications/cima-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-market-yourself",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-registered-education-providers-class-schedule",
+    "to": "/certifications/cima-certification/education-providers",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/exam",
+    "to": "/certifications/cima-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-application-process",
+    "to": "/certifications/cpwa-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-class-schedule-and-education-providers",
+    "to": "/certifications/cpwa-certification/education-providers",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-costs",
+    "to": "/certifications/cpwa-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-curriculum-overview",
+    "to": "/certifications/cpwa-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-exam",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-faqs",
+    "to": "/certifications/cpwa-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-market-yourself",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/certifications/which-program-is-right-for-you",
+    "to": "/certifications/compare-iwi-certifications",
+    "status": 301
+  },
+  {
+    "from": "/cfa",
+    "to": "/certifications/compare-financial-advisor-certifications",
+    "status": 301
+  },
+  {
+    "from": "/cfp2021",
+    "to": "/certifications/compare-financial-advisor-certifications",
+    "status": 301
+  },
+  {
+    "from": "/cima/testimonials-certification-comparison-chart",
+    "to": "/certifications/compare-financial-advisor-certifications",
+    "status": 301
+  },
+  {
+    "from": "/cima-candidate-learning-center",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/about",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima/apply",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima/cima-benefits",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima/cima-certification",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima/cima-certification-process",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima/cima-curriculum",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima/cima-recertification",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/cima/code-of-professional-responsibility",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/contact-us",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/events",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/governance",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/home",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/membership",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/membership/member-benefits",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-value-benefits",
+    "to": "/certifications/cima-certification",
+    "status": 301
+  },
+  {
+    "from": "/conferences-(1)/ce-reporting-(1)",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/speakers/daniel-goleman",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/speakers/john-a-nersesian,-cima®,-cpwa®,-cis,-cfp®",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/speakers/julie-littlechild",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/speakers/marguerita-cheng,-cfp-sup-®-sup-,-ricp-sup-®-sup",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/speakers/mike-van-wyk",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/investment-advisor-forum/registration",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/investment-advisor-forum/speakers",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/investment-advisor-forum/speakers/stephen-dubner",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-annual-conference-experience/speakers/adam-grant,-ph-d",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-annual-conference-experience/speakers/alexandra-cole",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-annual-conference-experience/speakers/cam-marston",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-annual-conference-experience/speakers/herman-brodie",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-annual-conference-experience/speakers/john-sileo",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-annual-conference-experience/speakers/marci-rossell",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-annual-conference-experience/speakers/raghuram-rajan,-ph-d",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-behavioral-advisor-forum/registration",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-investment-advisor-forum/speakers/andrew-friedman,-j-d",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-investment-advisor-forum/speakers/diana-henriques",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-investment-advisor-forum/speakers/herman-brodie",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-investment-advisor-forum/speakers/jim-sandidge,-j-d",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-investment-advisor-forum/speakers/patrick-nolan,-cfa-sup-®-sup",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-investment-advisor-forum/speakers/richard-marston,-ph-d",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2019/2019-investment-advisor-forum/speakers/toby-moskowitz,-ph-d",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-behavioral-advisor-forum/exhibitors-sponsors",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-behavioral-advisor-forum/pages/continuing-education-1",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-retirement-management-forum-livestream-on-d/exhibitors-sponsors-en",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-retirement-management-forum-livestream-on-d/pages-en/continuing-education",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-wealth-advisor-forum-livestream-on-demand/exhibitors-sponsors",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-wealth-advisor-forum-livestream-on-demand/pages/continuing-education",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/ace-2020-boston-the-exceptional-advisor-conference/registration",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2021/2021-investment-advisor-forum/exhibitors-sponsors",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2021/2021-investment-advisor-forum/pages/continuing-education",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2021/2021-investment-advisor-forum/registration",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/conference-archive-en",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/conference-code-of-conduct-en",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/speaker-proposals",
+    "to": "/financial-advisor-conferences-events/speaker-proposals",
+    "status": 301
+  },
+  {
+    "from": "/conferences/speaker-proposals/looking-for-speakers",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/cpwaaccelerator",
+    "to": "/certifications/cpwa-certification/exam/cpwa-accelerator-pack",
+    "status": 301
+  },
+  {
+    "from": "/cpwa-candidate-learning-center",
+    "to": "/certifications/cpwa-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/cpwa-demographics",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/cpwa-value-benefits",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/dwm",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards",
+    "to": "/about/ethics-code",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/antitrust-statement",
+    "to": "/about/governance/standards-and-compliance",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/disciplinary-rules-procedures",
+    "to": "/about/governance/standards-and-compliance",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/faqs-about-the-code",
+    "to": "/about/ethics-code",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/impartiality-statement",
+    "to": "/about/governance/standards-and-compliance",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/know-the-code",
+    "to": "/about/ethics-code",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/report-or-file-a-complaint",
+    "to": "/about/governance/report-or-file-a-complaint",
+    "status": 301
+  },
+  {
+    "from": "/exceptionaladvisor-1",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/act-ethically",
+    "to": "/certifications/market-yourself/act-ethically",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/cards",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/cards/faqs-about-the-toolkit",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/cards/faqs-about-the-toolkit/exceptional-advisor-faqs",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/demonstrate-advanced-knowledge",
+    "to": "/certifications/market-yourself/demonstrate-advanced-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance",
+    "to": "/certifications/market-yourself/meaningful-guidance",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/understand-what-clients-need-value",
+    "to": "/certifications/market-yourself/understand-what-clients-need-value",
+    "status": 301
+  },
+  {
+    "from": "/foundation-about",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/foundation-a-commitment-to-diversity",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/foundation-biographies",
+    "to": "/foundation/board-of-directors",
+    "status": 301
+  },
+  {
+    "from": "/foundation-donate",
+    "to": "/foundation/donate",
+    "status": 301
+  },
+  {
+    "from": "/foundation-donors",
+    "to": "/foundation/donors",
+    "status": 301
+  },
+  {
+    "from": "/foundation-impact",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/foundation-leadership",
+    "to": "/foundation/board-of-directors",
+    "status": 301
+  },
+  {
+    "from": "/foundation-scholarship",
+    "to": "/foundation/scholarships",
+    "status": 301
+  },
+  {
+    "from": "/getmedia/9df03bc5-c219-4b20-86d9-44e50f084947/Client-Order-Form-1-up-active2_9.pdf",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/getmedia/6c67c208-ba48-404b-ac73-6928ac8e42d1/Client-Order-Form-1-up-active2_8.pdf",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/hive",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/home",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/investments-wealth-competency-matrix",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/find-an-exceptional-advisor",
+    "to": "/find-an-exceptional-advisor",
+    "status": 301
+  },
+  {
+    "from": "/journalofinvestmentconsulting",
+    "to": "/advisor-publications/journal-of-investment-consulting",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/cima-certification-program-changes",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/cima-certification-program-core-body-of-knowledge-changes",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/cima-certification-program-examination-requirement-changes",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/cima-changes-form",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/faqs-for-cima-candidates",
+    "to": "/certifications/cima-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/general-faqs-for-cima-certification-revisions",
+    "to": "/certifications/cima-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/membership-overview",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/ce-providers",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/ce-providers/accepted-ce-topics",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/ce-providers/ce-credit-qualification-criteria",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/ce-providers/current-ce-sponsors",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/ce-providers/prospective-ce-sponsors",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/corporate-partners",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/sponsors-partners-exhibitors",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/new-client-research-uncovers-drivers-of-engagement,-satisfaction,-and-willingness-to-refer",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009/imca-announces-new-officers-and-board-members-for-",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009/imca-honors-harry-markowitz-at-spring-conference",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009/imca-journal-of-investment-consulting-interviews-h",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009/imca-membership-grows-into-new-segments",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009/imca-s-cpwa-certification-program-enhances-curricu",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009/imca-unveils-new-cima-certification-process-and-ra",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2009/imca-unveils-three-new-studies",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010/experienced-advisors-continue-to-dominate-imca-mem",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010/gary-gastineau-shares-tips-for-effective-etf-tradi",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010/imca-announces-2011-conference-calendar",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010/imca-membership-grows-as-benefits-expand",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010/imca-s-advanced-wealth-management-conference-sold-",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010/nobel-laureate-myron-s-scholes,-phd,-shares-insigh",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2010/outstanding-speakers-lined-up-for-imca-practice-ma",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011/clock-is-ticking-on-wealth-management-industry-dev",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011/imca-announces-2012-cpwa-program-dates",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011/imca-efforts-generate-more-than-$20,000-in-charita",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011/imca-explores-philanthropy-within-investment-manag",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011/imca-introduces-2012-board-of-directors",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011/imca-publication-examines-master-limited-partnersh",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2011/imca-publication-examines-the-history-of-sovereign",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012/imca-announces-2013-annual-conference-keynote-spea",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012/imca-defines-wealth-management",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012/imca-introduces-additional-education-resources-for",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012/imca-introduces-new-website-to-better-serve-member",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012/imca-publication-offers-in-depth-behavioral-financ",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012/imca-recommends-accredited-certification-programs",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2012/imca-selects-mercer-to-manage-its-long-term-invest",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013/imca-announces-2014-board-of-directors",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013/imca-enhances-cpwa-certification-program",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013/imca-hires-national-sales-director",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013/imca-introduces-carnegie-mellon-university’s-teppe",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013/imca-membership-surpasses-9,000-as-more-independen",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013/imca-publication-examines-the-future-of-financial",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2013/imca-publication-focuses-on-wealth-transfer-and-ta",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014/advising-for-same-sex-marriage,-global-investing,-",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014/imca-announces-2015-board-of-directors",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014/imca-hires-former-staffer-as-director-of-communica",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014/imca-releases-2014-member-profile,-tops-10,000",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014/imca-releases-masters-of-finance,-featuring-best-m",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014/imca-volunteers-at-food-bank-of-the-rockies",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2014/kahneman,-krawcheck-to-headline-imca-2015-new-york",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015/department-of-labor,-sifma-ceo,-to-headline-imca-f",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015/global-investing,-geopolitics-analyzed-in-latest-i",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015/imca-calls-for-nominations-for-three-prestigious-a",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015/imca-introduces-2016-board-of-directors",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015/imca-launches-online-applied-behavioral-finance-co",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015/imca-revises-code-of-professional-responsibility",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2015/top-advisors-market-volatility-not-spooking-most",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016/cima®-program-reaccredited-under-international-sta",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016/growing-niche-client-segments-focus-of-imca’s®-nov",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016/imca-elects-dynasty-financial-partners-cio-scott-w",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016/imca-hires-new-director-of-communications",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016/imca-wins-wealthmanagement-com-2016-industry-award",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016/kaplan-financial-education-to-offer-cima®-examinat",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2016/yale-school-of-management-to-deliver-cima®-educati",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/client-service-drives-canadian-investment-advisors",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/collaborative-teams-drive-growth-and-success-for-financial-advisors-according-to-new-research-from-i",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/freakonomics,-economic-outlook,-technology’s-impact-on-longevity,-emerging-markets-key-topics-at",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/investment-management-consultants-association rebr",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/investments-wealth-institute-announces-2018-2019-board-officers-and-directors",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/investments-wealth-institute-collaborates-with-the-options-industry-council-on-new,-online-fundam",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/investments-wealth-institute-expands-collaboration",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2017/new-research-finds-enhanced-expertise-key-to-investor-satisfaction",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2020",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/“mailto:mmastey@i-w.org”",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news-room/join-the-press-list",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/online-catalog/hero/virtual-events",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/online-catalog/investments-wealth-competency-matrix",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/publications",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/publications/50-states-of-gray/50-states-of-gray",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/publications/government-relations/government-relations",
+    "to": "/about",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor",
+    "to": "/advisor-publications/investment-and-wealth-monitor",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/advertising",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/article-guidelines",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/ce-quizzes/ce-quiz-instructions-for-cfp-certificants",
+    "to": "/advisor-publications/investment-and-wealth-monitor/ce-quizzes/cfp-certificant-instructions",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/editorial-advisory-board",
+    "to": "/advisor-publications/investment-and-wealth-monitor/editorial-advisory-board",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/publications-mobile-app",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/reprint-permission-policy",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-wealth-insight/investments-wealth-insight",
+    "to": "/advisor-publications/newsletters",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-wealth-research",
+    "to": "/advisor-publications/research",
+    "status": 301
+  },
+  {
+    "from": "/publications/iwmeditorialcalendar",
+    "to": "/advisor-publications/contributor-guidelines#iwm-topics",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/academic-paper-competition",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/call-for-papers",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/doctoral-student-research-grants",
+    "to": "/advisor-publications/journal-of-investment-consulting/doctoral-student-research",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/editorial-advisory-board",
+    "to": "/advisor-publications/journal-of-investment-consulting/editorial-advisory-board",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/manuscript-guidelines",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/masters-series-interviews",
+    "to": "/advisor-publications/journal-of-investment-consulting/masters-series-interviews",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/reprint-permission-policy",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-as-a-risky-project/retirement-as-a-risky-project",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal",
+    "to": "/advisor-publications/retirement-management-journal",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/advertising",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/call-for-papers",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/doctoral-student-research-grants",
+    "to": "/advisor-publications/retirement-management-journal/doctoral-student-research",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/editorial-advisory-board",
+    "to": "/advisor-publications/retirement-management-journal/editorial-advisory-board",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/manuscript-guidelines",
+    "to": "/advisor-publications/contributor-guidelines",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/visionaries-series-interviews",
+    "to": "/advisor-publications/retirement-management-journal/visionary-series-interviews",
+    "status": 301
+  },
+  {
+    "from": "/rma",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/rma-application-process",
+    "to": "/certifications/rma-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/rma-candidate-learning-center",
+    "to": "/certifications/rma-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/rma-costs",
+    "to": "/certifications/rma-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/rma-curriculum",
+    "to": "/certifications/cpwa-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/rma-demographics",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/rma-exam",
+    "to": "/certifications/rma-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/rma-faqs",
+    "to": "/certifications/rma-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/rma-market-yourself",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/rma-renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/rma-schedule",
+    "to": "/certifications/rma-certification/rma-capstone",
+    "status": 301
+  },
+  {
+    "from": "/rma-value-benefits",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/teams",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/the-exceptional-advisor",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/thrive",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/thrive-dei",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/volunteer",
+    "to": "/about/volunteer-committees",
+    "status": 301
+  },
+  {
+    "from": "/women-in-wealth",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/certifications/professional-development",
+    "to": "/membership/financial-advisor-career-development",
+    "status": 301
+  },
+  {
+    "from": "/cima/application-fees",
+    "to": "/certifications/cima-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/cpwa/cpwa-application-fees",
+    "to": "/certifications/cpwa-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/getmedia/b6b47128-c68b-4d0e-9a1e-a17fe4230fff/2020-CPWA-Professional-Brochure-web-2",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/bubblesod",
+    "to": "/bubblesod",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/find-an-exceptional-advisor",
+    "to": "/ethics-standards/find-an-exceptional-advisor",
+    "status": 301
+  },
+  {
+    "from": "/getattachment/0d092222-a02c-43e9-b900-eab0d04816fd/JIC221-BR-Investing-Amid-Low-Expected-Returns.pdf",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/investors",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/find-a-cima-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/find-a-cpwa-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/find-an-rma-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/about-us-for-investors",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/articles",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/articles/select-the-right-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/find-an-exceptional-advisor/why-work-with-a-cima®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/find-an-exceptional-advisor/why-work-with-a-cpwa®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/industry-resources",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/quizzes",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/quizzes/level-five-advanced-investing",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/quizzes/level-four-intermediate-concepts",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/quizzes/level-one-investing-basics",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/quizzes/level-three-intermediate-investing",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/quizzes/level-two-investing-concepts",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/videos",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/iwmquiz",
+    "to": "https://secure.imca.org/eweb/dynamicpage.aspx?WebCode=IMCACEQuizzes",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/alger",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/alger/view-alger-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/alliancebernstein",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/alliancebernstein/view-alliancebernstein-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/allianz",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/allianz/view-allianz-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/american-century-investments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/american-century-investments/view-american-century-investments-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/cboe-global-markets",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/cboe-global-markets/view-cboe-global-market-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/charles-schwab-investment-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/charles-schwab-investment-management/charles-schwab-investment-management-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/commonwealth",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/commonwealth/view-commonwealth-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/eaton-vance",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/eaton-vance/view-eaton-vance-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/gqg-partners",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/gqg-partners/view-gqg-partners-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/halo-investing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/halo-investing/view-halo-investing-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/john-hancock-investment-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/john-hancock-investment-management/view-john-hancock-investment-management-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/jp-morgan-asset-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/jp-morgan-asset-management/view-jp-morgan-asset-management-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/Logica",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/macquarie-asset-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/macquarie-asset-management/macquarie-asset-management-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/merrill",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/merrill/view-merrill-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/mwc-group",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/mwc-group/view-mwc-group-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/nationwide",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/nationwide/view-nationwide-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/new-york-life",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/new-york-life/view-new-york-life-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/orion",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/orion/orion-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/proshares",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/raymond-james-ria-custody-services-(rcs)-division",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/raymond-james-ria-custody-services-(rcs)-division/view-raymond-james-ria-custody-services-(rcs)-division-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/sei",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/sei/view-sei-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/swan-global-investments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/swan-global-investments/view-swan-global-investment-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/voya-investment-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/voya-investment-management/view-voya-investment-management-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/wells-fargo-advisors-financial-network",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library/wells-fargo-advisors-financial-network/view-wells-fargo-advisors-financial-network-s-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2006/2006-cognitive-biases-series",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2006/jan-feb-institutional-consulting",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2006/jul-aug-practice-management-tools-of-the-trade",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2006/mar-apr-global-international-issues",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2006/may-jun-risk-management-compliance",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2006/nov-dec-alternative-investments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2006/sep-oct-wealth-management-retirement-planning",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2007/jan-feb-hot-topics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2007/jul-aug-risk-management-compliance",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2007/mar-apr-institutional-consulting",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2007/may-jun-marketing-services-asset-gathering",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2007/nov-dec-wealth-management-retirement-planning",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2007/sep-oct-practice-management-technology",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2008/jan-feb-institutional-consulting",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2008/jul-aug-alternative-vehicles",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2008/mar-apr-industry-trends",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2008/may-jun-global-issues",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2008/nov-dec-wealth-management-retirement-planning",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2008/sep-oct-practice-management-marketing-services",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2009/jul-aug-taxation",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2009/mar-apr-spending",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2009/may-jun-behavioral-finance",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2009/nov-dec-practice-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2009/sep-oct-wealth-transfer-philanthropy",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2010/jul-aug-global-strategies",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2010/mar-apr-education",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2010/may-jun-tax-exempt-investing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2010/nov-dec-investment-solutions",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2010/sep-oct-wealth-transfer",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2011/jul-aug-taxation-regulation",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2011/mar-apr-risk-management-asset-allocation",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2011/may-jun-philanthropy",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2011/nov-dec-institutional-consulting",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2011/sep-oct-ultra-high-net-worth-consulting",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2012/jul-aug-technology-social-media",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2012/mar-apr-globalization",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2012/may-jun-alternative-investments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2012/nov-dec-future-of-investment-consulting",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2012/sep-oct-regulation-legislation",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2013/jul-aug-advanced-portfolio-risk-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2013/mar-apr-manager-search-selection-asset-allocation",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2013/may-jun-central-banking",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2013/nov-dec-wealth-management-wealth-transfer-taxation",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2013/sep-oct-demographics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2014/jul-aug-alternative-investing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2014/mar-apr-investment-management-in-the-new-normal",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2014/may-jun-active-passive",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2014/nov-dec-governance",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2014/sep-oct-globalization-of-wealth-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2015/jul-aug-ethics-fiduciary-standards",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2015/mar-apr-asset-allocation",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2015/may-jun-retirement-planning-retirement-income-solu",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2015/nov-dec-outcome-based-goal-based-investing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2015/sep-oct-globalization-geopolitics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2016/jan-feb-focus-on-ultra-high-net-worth-clients",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2016/jul-aug-focus-on-next-generation-clients",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2016/mar-apr-institutional-foundations-and-endowments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2016/may-jun-focus-on-mature-clients",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2016/nov-dec-niche-client-segments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2016/sep-oct-retirement-deep-dive",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2017/jan-feb-revisiting-modern-portfolio-theory-portfol",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2017/jul-aug-advanced-wealth-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2017/mar-apr-technology-fees-business-models",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2017/may-jun-behavioral-finance-mind-of-the-client",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2017/nov-dec-esg-impact-investing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2017/sep-oct-fiduciary-practices",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2018/jan-feb-disruptive-trends",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2018/jul-aug-evolution-of-indexing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2018/mar-apr-investment-implications-of-geopolitics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2018/may-jun-advisor-of-the-future",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2018/nov-dec-international-investing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2018/sep-oct-fiduciary-and-regulatory",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/jan-feb-industry-disruption",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/jul-aug-innovations-in-portfolio-construction",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/mar-apr-demographics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/may-jun-client-of-the-future",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/nov-dec-governance,-regulatory,-ethics,-fiduciary",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/sep-oct-behavioral-finance",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2020/jan-feb-product-innovation-and-evolution",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2020/jul-aug-advanced-asset-allocation-and-portfolio-construction",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2020/mar-apr-institutional-consulting",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2020/may-jun-managing-retirement-risks",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2020/nov-dec-behavioral-science",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2020/sep-oct-private-wealth-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2021/jan-feb-globalization-in-a-post-pandemic-world",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2021/jul-aug-future-of-wealth-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2021/mar-apr-future-of-advice",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2021/may-jun-evolution-of-products-and-solutions",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2021/nov-dec-rethinking-retirement",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2021/sep-oct-advanced-portfolio-construction",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2022/jan-feb-investment-management",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2022/jul-aug-role-use-of-alternative-investments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2022/mar-apr-demographics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2022/may-jun-sustainability-investing",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2022/nov-dec-longevity-risk",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2022/sep-oct-private-wealth",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2023/jan-feb-economy-and-geopolitics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2023/jul-aug-incorporating-alternative-investments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2023/mar-apr-investments-portfolio-construction",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2023/may-jun-evolution-of-advice",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2023/sep-oct-high-net-worth-ultra-high-net-worth-investors",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/archive",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-wealth-research/archive",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/2017/vol-18,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/2019/vol-19,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/2020/vol-20,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/2022/vol-21,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/2023/vol-22,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting/archive",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2018/vol-7,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2019/vol-8,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2020/vol-9,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2021/vol-10,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2022/vol-11,-no-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/archive",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/washington-insights",
+    "to": "https://publications.investmentsandwealth.org/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/washington-insights/2021/vol-6,-issue-3-reg-bi-a-quiet-first-anniversary",
+    "to": "https://publications.investmentsandwealth.org/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/washington-insights/about-washington-insights/hero",
+    "to": "https://publications.investmentsandwealth.org/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/washington-insights/washington-insights-archive",
+    "to": "https://publications.investmentsandwealth.org/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/wealth-management-editor-s-choice-ejournal",
+    "to": "https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalbrowse&journal_id=3531248",
+    "status": 301
+  },
+  {
+    "from": "/view-proshares-white-paper-library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/future-of-investment-advice-study-reveals-passive-investment-vehicles-and-strategies,-behavioral-fin",
+    "to": "/newsroom/future-of-investment-advice-study-reveals-passive-investment-vehicles-and-strategies,-behavioral-fin",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/investments-wealth-institute-elects-thomas-chris”-bidwell-to-board-of-directors",
+    "to": "/newsroom/investments-wealth-institute-elects-thomas-chris”-bidwell-to-board-of-directors",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/investments-wealth-institute-investment-advisor-forum-to-feature-nation’s-leading-investment-exper",
+    "to": "/newsroom/investments-wealth-institute-investment-advisor-forum-to-feature-nation’s-leading-investment-exper",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/investments-wealth-institute-launches-podcast-series-featuring-robert-powell-of-thestreet",
+    "to": "/newsroom/investments-wealth-institute-launches-podcast-series-featuring-robert-powell-of-thestreet",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/investments-wealth-institute-releases-investments-wealth-monitor",
+    "to": "/newsroom/investments-wealth-institute-releases-investments-wealth-monitor",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/nytimes-best-seller,-wizard-of-lies-author-diana-b-henriques-among-featured-speakers-at-investments",
+    "to": "/newsroom/nytimes-best-seller,-wizard-of-lies-author-diana-b-henriques-among-featured-speakers-at-investments",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/retirement-management-journal-launches-as-newest-addition-to-the-investments-wealth-institute’s-aw",
+    "to": "/newsroom/retirement-management-journal-launches-as-newest-addition-to-the-investments-wealth-institute’s-aw",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2018/wharton’s-adam-grant-and-chicago-booth-school’s-raghuram-rajan-to-headline-ace-2019",
+    "to": "/newsroom/wharton’s-adam-grant-and-chicago-booth-school’s-raghuram-rajan-to-headline-ace-2019",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/certified-private-wealth-advisor-(cpwa)-certification-exam-is-changing",
+    "to": "/newsroom/certified-private-wealth-advisor-(cpwa)-certification-exam-is-changing",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/education-benefits-are-critical-to-attracting-and-retaining-top-talent",
+    "to": "/newsroom/education-benefits-are-critical-to-attracting-and-retaining-top-talent",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/investment-expert,-and-ria-firm-principal-todd-wagenberg- -elected-to-chair-investments-wealth-ins",
+    "to": "/newsroom/investment-expert,-and-ria-firm-principal-todd-wagenberg- -elected-to-chair-investments-wealth-ins",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/investments-wealth-institute-2019-member-profile-reveals-pivot-to-holistic-wealth-planning",
+    "to": "/newsroom/investments-wealth-institute-2019-member-profile-reveals-pivot-to-holistic-wealth-planning",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/investments-wealth-institute-announces-continuing-education-requirement-changes-for-cima,-cpwa-and",
+    "to": "/newsroom/investments-wealth-institute-announces-continuing-education-requirement-changes-for-cima,-cpwa-and",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/investments-wealth-institute-announces-new-course-private-wealth-essentials",
+    "to": "/newsroom/investments-wealth-institute-announces-new-course-private-wealth-essentials",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/new-client-research-uncovers-drivers-of-engagement,-satisfaction,-and-willingness-to-refer",
+    "to": "/newsroom/new-client-research-uncovers-drivers-of-engagement,-satisfaction,-and-willingness-to-refer",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2019/step-away-from-the-headlines-advisors-say-being-easily-influenced-by-recent-news-and-events-is-1-i",
+    "to": "/newsroom/step-away-from-the-headlines-advisors-say-being-easily-influenced-by-recent-news-and-events-is-1-i",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2020/befi-barometer-2020-behavioral-finance-techniques-help-advisors-keep-clients-invested-through-marke",
+    "to": "/newsroom/befi-barometer-2020-behavioral-finance-techniques-help-advisors-keep-clients-invested-through-marke",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2020/new-study-shows-client-perceptions-of-their-advisors-are-changing-amid-global-pandemic,-advisors-nee",
+    "to": "/newsroom/new-study-shows-client-perceptions-of-their-advisors-are-changing-amid-global-pandemic,-advisors-nee",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2020/wiley-partners-with-the-investments-and-wealth-institute-to-expand-offerings-for-investment-professi",
+    "to": "/newsroom/wiley-partners-with-the-investments-and-wealth-institute-to-expand-offerings-for-investment-professi",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/2022-chair-and-new-board-members",
+    "to": "/newsroom/2022-chair-and-new-board-members",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/befi-barometer-2021-advisors-witness-dramatic-increase-in-behavioral-biases-among-clients-amidst-pa",
+    "to": "/newsroom/befi-barometer-2021-advisors-witness-dramatic-increase-in-behavioral-biases-among-clients-amidst-pa",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/digital-badges",
+    "to": "/newsroom/digital-badges",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/industry-leaders-assemble-together-to-educate-advisors-on-the-benefits-of-behavioral-finance",
+    "to": "/newsroom/industry-leaders-assemble-together-to-educate-advisors-on-the-benefits-of-behavioral-finance",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/investments-wealth-institute-and-association-of-professional-fund-investors-form-strategic-allianc",
+    "to": "/newsroom/investments-wealth-institute-and-association-of-professional-fund-investors-form-strategic-allianc",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/investments-wealth-institute-s-new-alliance-expands-member-benefits-to-include-fiduciary-expertise",
+    "to": "/newsroom/investments-wealth-institute-s-new-alliance-expands-member-benefits-to-include-fiduciary-expertise",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/investments-wealth-institute-s-new-alliance-expands-member-benefits-to-include-fiduciary-expertise-1",
+    "to": "/newsroom/investments-wealth-institute-s-new-alliance-expands-member-benefits-to-include-fiduciary-expertise-1",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2021/leading-standards-body-earns-reaccreditation-for-cima®-certification",
+    "to": "/newsroom/leading-standards-body-earns-reaccreditation-for-cima®-certification",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022/global-uncertainty-and-demographic-shifts-are-changing-the-client-experience",
+    "to": "/newsroom/global-uncertainty-and-demographic-shifts-are-changing-the-client-experience",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022/investments-wealth-college-student-loan-planning-essentials-program",
+    "to": "/newsroom/investments-wealth-college-student-loan-planning-essentials-program",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022/investments-wealth-forum–new-york-city-is-the-event-to-manage-portfolio-risk",
+    "to": "/newsroom/investments-wealth-forum–new-york-city-is-the-event-to-manage-portfolio-risk",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022/investments-wealth-forum-toronto-registration-now-open",
+    "to": "/newsroom/investments-wealth-forum-toronto-registration-now-open",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022/investments-wealth-institute-earns-prestigious-anab-accreditation-for-cpwa-certification",
+    "to": "/newsroom/investments-wealth-institute-earns-prestigious-anab-accreditation-for-cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022/investments-wealth-institute-names-michael-mastey-as-director-of-sales",
+    "to": "/newsroom/investments-wealth-institute-names-michael-mastey-as-director-of-sales",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2022/mackenzie-investments-becomes-first-north-american-cohort-to-participate-in-the-investments-wealth-institutes-new-private-markets-course",
+    "to": "/newsroom/mackenzie-investments-becomes-first-north-american-cohort-to-participate-in-the-investments-wealth-institutes-new-private-markets-course",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/10-30-strong-private-markets-offering",
+    "to": "/newsroom/10-30-strong-private-markets-offering",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/11-2-new-york-strategy-forum",
+    "to": "/newsroom/11-2-new-york-strategy-forum",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/iwi-announces-agenda-for-lifecycle-planning-virtual-conference",
+    "to": "/newsroom/iwi-announces-agenda-for-lifecycle-planning-virtual-conference",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/iwi-announces-new-experience-conference-2024",
+    "to": "/newsroom/iwi-announces-new-experience-conference-2024",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/iwi-appoints-avi-sharon-editorial-advisory-board-chair-of-iwm",
+    "to": "/newsroom/iwi-appoints-avi-sharon-editorial-advisory-board-chair-of-iwm",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/iwi-launches-investmenthelp",
+    "to": "/newsroom/iwi-launches-investmenthelp",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/iwi-names-april-ferrell-cima®-managing-director-business-development",
+    "to": "/newsroom/iwi-names-april-ferrell-cima®-managing-director-business-development",
+    "status": 301
+  },
+  {
+    "from": "/news-room/2023/iwi-now-offering-cima®-program-in-africa",
+    "to": "/newsroom/iwi-now-offering-cima®-program-in-africa",
+    "status": 301
+  },
+  {
+    "from": "/news-room/join-us-on-social-media",
+    "to": "/newsroom/join-us-on-social-media",
+    "status": 301
+  },
+  {
+    "from": "/news-room/news-room-archive",
+    "to": "/newsroom/",
+    "status": 301
+  },
+  {
+    "from": "/news-room/podcast-library/season-1",
+    "to": "/newsroom/podcast-library/season-1",
+    "status": 301
+  },
+  {
+    "from": "/news-room/podcast-library/season-2",
+    "to": "/newsroom/podcast-library/season-2",
+    "status": 301
+  },
+  {
+    "from": "/news-room/press-kit",
+    "to": "/newsroom/press-kit",
+    "status": 301
+  },
+  {
+    "from": "/news-room/press-policy",
+    "to": "/newsroom/press-policy",
+    "status": 301
+  },
+  {
+    "from": "/news-room/video-library",
+    "to": "/newsroom/video-library",
+    "status": 301
+  },
+  {
+    "from": "/news-room/video-library/2016-video-library-archive",
+    "to": "/newsroom/video-library/2016-video-library-archive",
+    "status": 301
+  },
+  {
+    "from": "/news-room/video-library/2017-video-library-archive",
+    "to": "/newsroom/video-library/2017-video-library-archive",
+    "status": 301
+  },
+  {
+    "from": "/news-room/video-library/2018-video-library-archive",
+    "to": "/newsroom/video-library/2018-video-library-archive",
+    "status": 301
+  },
+  {
+    "from": "/news-room/video-library/video-reflecting-on-a-30-year-history",
+    "to": "/newsroom/video-library/video-reflecting-on-a-30-year-history",
+    "status": 301
+  },
+  {
+    "from": "/news-room/video-library/visit-the-institute-s-youtube-channel",
+    "to": "/newsroom/video-library/visit-the-institute-s-youtube-channel",
+    "status": 301
+  },
+  {
+    "from": "/sitemap",
+    "to": "/sitemap.xml",
+    "status": 301
+  },
+  {
+    "from": "/2020-workshops-and-webinars",
+    "to": "/online-learning-financial-advisor-ce/webinars",
+    "status": 301
+  },
+  {
+    "from": "/2022-workshops-and-webinars",
+    "to": "/certifications/introductory-webinars",
+    "status": 301
+  },
+  {
+    "from": "/ace-2023-sandiego",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/ace-academy-2023",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/ace-san-diego-2023-ce",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/advisor-challenge_summer2022",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/cpwa-retake",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/getcertified",
+    "to": "/certifications/compare-iwi-certifications",
+    "status": 301
+  },
+  {
+    "from": "/getcertified2020",
+    "to": "/certifications/compare-iwi-certifications",
+    "status": 301
+  },
+  {
+    "from": "/membership-options-2021",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/navigating-turbulent-times",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/new-york-strategy-forum-2023-letian-dong",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/nyc-2022",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/online-education",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/polyana-da-costa-iwf-toronto-2022-0",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/professional-development",
+    "to": "/membership/financial-advisor-career-development",
+    "status": 301
+  },
+  {
+    "from": "/rma-capstone-2020",
+    "to": "/certifications/rma-certification/rma-capstone",
+    "status": 301
+  },
+  {
+    "from": "/scholarships",
+    "to": "/foundation/scholarships",
+    "status": 301
+  },
+  {
+    "from": "/scottsdale-2023",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/wiw",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/women-in-wealth",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/about-us/awards/award-recipients-en",
+    "to": "/about/awards",
+    "status": 301
+  },
+  {
+    "from": "/About-Us/Governance/Volunteer-Committees",
+    "to": "/about/volunteer-committees",
+    "status": 301
+  },
+  {
+    "from": "/about-us/governance/volunteer-committees",
+    "to": "/about/volunteer-committees",
+    "status": 301
+  },
+  {
+    "from": "/about-us/imca-is-now-investments-wealth-institute/institute-frequently-asked-questions",
+    "to": "/about",
+    "status": 301
+  },
+  {
+    "from": "/about-us/imca-is-now-investments-wealth-institute/riia-members-faq",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/Are-You-an-Exceptional-Advisor",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/rma-toolkit",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/cima-toolkit",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/general-client-resources",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-v/toolkits/hero/toolkits/rma-toolkit/rma-sample-client-letter",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/Are-You-an-Exceptional-Advisor-Communicate-Your-Va",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/Are-You-an-Exceptional-Advisor-Communicate-Your-Va/Exceptional-Advisor-Course",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/are-you-an-exceptional-advisor-communicate-your-va/exceptional-advisor-course",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/Are-You-an-Exceptional-Advisor-Communicate-Your-Va/Frequently-Asked-Questions",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/Are-You-an-Exceptional-Advisor-Communicate-Your-Va/General-Client-Resources",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/Are-You-an-Exceptional-Advisor-Communicate-Your-Va/Helpful-Research-(1)",
+    "to": "/certifications/market-yourself/understand-what-clients-need-value",
+    "status": 301
+  },
+  {
+    "from": "/Are-You-an-Exceptional-Advisor-Communicate-Your-Va/Toolkits/Client-Brochures-(FINRA-Reviewed)",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/benefits",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/Certifications/ANSI-Accreditation",
+    "to": "/about/accreditation",
+    "status": 301
+  },
+  {
+    "from": "/certifications/ansi-accreditation",
+    "to": "/about/accreditation",
+    "status": 301
+  },
+  {
+    "from": "/certifications/future-of-wealth-management",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/certifications/scholarship-fund",
+    "to": "/foundation/scholarships",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-handbook-study-resources",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/Certifications/Welcome-to-CIMA/CIMA-Handbook-Study-Resources",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-resource-center",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/cima-value-benefits",
+    "to": "/certifications/cima-certification",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cima/curriculum-overview",
+    "to": "/certifications/cima-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-candidate-profile",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-handbook-study-resources",
+    "to": "/certifications/cpwa-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/cpwa-value-benefits",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/Certifications/Welcome-to-CPWA/Exam",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/certifications/welcome-to-cpwa/exam",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/CIMA",
+    "to": "/certifications/cima-certification",
+    "status": 301
+  },
+  {
+    "from": "/cima",
+    "to": "/certifications/cima-certification",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/Benefits-of-CIMA",
+    "to": "/certifications/cima-certification",
+    "status": 301
+  },
+  {
+    "from": "/cima/ce-audit",
+    "to": "/certifications/cima-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/CE-Audit",
+    "to": "/certifications/cima-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/cima/cima-application-fees",
+    "to": "/certifications/cima-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/CIMA-Certification-Examination-Information",
+    "to": "/certifications/cima-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/cima/cima-cpwa-renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/cima/cima-cpwa-rma-renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/CIMA-CPWA-RMA-Renewal-Requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/CIMA-Self-Study-Texts",
+    "to": "/certifications/cima-certification/exam",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/Fee-Structure",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/Premier-CE",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/cima/registered-education-providers",
+    "to": "/certifications/cima-certification/education-providers",
+    "status": 301
+  },
+  {
+    "from": "/CIMA/Resources-for-CIMA-Certificants",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/cima/resources-for-cima-certificants",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/cimasocietyaustralia",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/CIMA-Society-of-Australia",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/about/governance",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/cima-society-of-australia/global-navigation",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/conferencecalendar",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Conference-Archive-(1)",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Conference-Archive-(2)",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Conference-Calendar",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Conference-Code-of-Conduct-(1)",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Conferences-Events-Calendar",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Speaker-Proposals-(1)",
+    "to": "/financial-advisor-conferences-events/speaker-proposals",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Speaker-Proposals-(1)/Looking-for-Speakers",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/Conferences-(1)/Visit-Our-Conference-Calendar",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-annual-conference-experience/registration",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-retirement-management-forum-live-stream-on/exhibitors-sponsors-en",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2020/2020-retirement-management-forum-live-stream-on/pages-en/continuing-education",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Contact",
+    "to": "/contact-us",
+    "status": 301
+  },
+  {
+    "from": "/cpwa",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/CPWA",
+    "to": "/certifications/cpwa-certification",
+    "status": 301
+  },
+  {
+    "from": "/cpwa/cima-cpwa-certification-renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/diversity-elevates",
+    "to": "/foundation",
+    "status": 301
+  },
+  {
+    "from": "/Ethics-Standards/ANSI-Accreditation",
+    "to": "/about/accreditation",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/ansi-accreditation",
+    "to": "/about/accreditation",
+    "status": 301
+  },
+  {
+    "from": "/Ethics-Standards/Code-of-Professional-Responsibility-with-Guida-(1)",
+    "to": "/about/ethics-code",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/code-of-professional-responsibility-with-guida-(1)",
+    "to": "/about/ethics-code",
+    "status": 301
+  },
+  {
+    "from": "/Ethics-Standards/Disciplinary-Actions",
+    "to": "/about/governance/standards-and-compliance",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/report-a-complaint",
+    "to": "/about/governance/report-or-file-a-complaint",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cima-sample-email-for-clients",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cima-sample-email-for-prospects",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cima-sample-letter-for-clients",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cima-sample-website-copy",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cpwa-sample-email-for-clients",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cpwa-sample-email-for-prospects",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cpwa-sample-letter-for-clients",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/cpwa-sample-website-copy",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/rma-sample-client-email",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/rma-sample-client-letter",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/rma-sample-letter-and-email",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/rma-sample-press-release",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/provide-meaningful-guidance/rma-website-copy",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/social-media-guide",
+    "to": "/certifications/market-yourself/act-ethically",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-webinar-overview",
+    "to": "/online-learning-financial-advisor-ce/webinars",
+    "status": 301
+  },
+  {
+    "from": "/knowledge-centers-overview",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/learning",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/Learning/Insights/Investments-Wealth-Monitor/CE-Quizzes/CE-Quiz-Instructions-for-CFP-Certificants",
+    "to": "/advisor-publications/investment-and-wealth-monitor/ce-quizzes/cfp-certificant-instructions",
+    "status": 301
+  },
+  {
+    "from": "/learning/investments-wealth-competency-matrix",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/learning/online-learning",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/learning/online-learning/on-demand-ce-library-1",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/learning/online-learning/online-catalog",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/cima-certification-program-br-core-body-of-knowledge-changes",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/marketing-communications/communications/2018/defining-the-future-of-financial-advice/faqs-for-cima-candidates-on-cima-revisions",
+    "to": "/certifications/cima-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/membership/corporate-partners",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/membership/corporate-white-paper-library",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/membership-community",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Community",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/membership-community/ce-providers/accepted-ce-topics",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-community/corporate-partners",
+    "to": "/partner-and-sponsor",
+    "status": 301
+  },
+  {
+    "from": "/membership-community/membership/join-renew",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/membership-community/societies/cima-society-of-australia/about/board-of-directors-(1)",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/membership-community/societies/cima-society-of-australia/about/contact-us",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/membership-community/societies/cima-society-of-australia/cima-program/code-of-professional-responsibility",
+    "to": "/membership/cima-society-of-australia",
+    "status": 301
+  },
+  {
+    "from": "/membership-community/the-institute-membership",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership-(1)",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership-(1)/ce-providers",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership-(1)/ce-providers/ce-credit-qualification-criteria",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership-(1)/ce-providers/current-ce-sponsors",
+    "to": "/online-learning-financial-advisor-ce/ce-providers",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/Member-Resource-Library",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/Membership",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/Membership/Join,-Renew-Upgrade",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/Membership/Membership-Benefits",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/white-paper-library",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/news",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/news/2017/investment-management-consultants-association rebr",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/newsroom",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/newsroom/investment-sense-blog",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/News-Room/Investment-Sense-Blog",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/news-room/investment-sense-blog",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/newsroom/join-the-press-list",
+    "to": "/advisor-publications/newsroom",
+    "status": 301
+  },
+  {
+    "from": "/News-Room/Podcast-Library",
+    "to": "/advisor-publications/exceptional-advisor-podcast",
+    "status": 301
+  },
+  {
+    "from": "/news-room/podcast-library",
+    "to": "/advisor-publications/exceptional-advisor-podcast",
+    "status": 301
+  },
+  {
+    "from": "/online-catalog/virtual-events",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/online-learning",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/Publications/50-States-of-Gray",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Government-Relations",
+    "to": "/about",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-amp;-wealth-research",
+    "to": "/advisor-publications/research",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-and-Wealth-Monitor/Editorial-Calendar",
+    "to": "/advisor-publications/contributor-guidelines#iwm-topics",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/iwm-mobile-app",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/Publications/InvestmentSense-Blog",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Insight",
+    "to": "/advisor-publications/newsletters",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-wealth-institute-insight/investments-wealth-insight",
+    "to": "/advisor-publications/newsletters",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-wealth-monitor",
+    "to": "/advisor-publications/investment-and-wealth-monitor",
+    "status": 301
+  },
+  {
+    "from": "/publications/journal-of-investment-consulting",
+    "to": "/advisor-publications/journal-of-investment-consulting",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Journal-of-Investment-Consulting",
+    "to": "/advisor-publications/journal-of-investment-consulting",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Research-Library",
+    "to": "/certifications/market-yourself/understand-what-clients-need-value",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Retirement-As-A-Risky-Project",
+    "to": "/advisor-publications",
+    "status": 301
+  },
+  {
+    "from": "/RMA/Exam",
+    "to": "/certifications/rma-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/RMA/renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/rma/rma",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/rma/rma/rma-market-yourself",
+    "to": "/certifications/rma-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/rma/rma/rma-meet-the-faculty",
+    "to": "/certifications/rma-certification/rma-capstone",
+    "status": 301
+  },
+  {
+    "from": "/RMA/RMA-Application-Process",
+    "to": "/certifications/rma-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/RMA/RMA-candidate-profile",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/RMA/RMA-Costs",
+    "to": "/certifications/rma-certification/requirements",
+    "status": 301
+  },
+  {
+    "from": "/RMA/rma-curriculum-overview",
+    "to": "/certifications/cpwa-certification/exam/topics",
+    "status": 301
+  },
+  {
+    "from": "/RMA/RMA-FAQs",
+    "to": "/certifications/rma-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/RMA/RMA-Meet-the-Faculty",
+    "to": "/certifications/rma-certification/rma-capstone",
+    "status": 301
+  },
+  {
+    "from": "/rma/rma-renewal-requirements",
+    "to": "/certifications/iwi-certification-renewal",
+    "status": 301
+  },
+  {
+    "from": "/RMA/RMA-value-benefits",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/thrive-coalition",
+    "to": "/foundation/board-of-directors",
+    "status": 301
+  },
+  {
+    "from": "/abf",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/aiai",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/applied-behavioral-finance",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/applied-behavioral-finance",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/college-and-student-loan-planning-essentials",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/eic",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/investors/find-an-advisor-that-s-right-for-you/why-work-with-a-cima®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/find-an-advisor-that-s-right-for-you/why-work-with-a-cpwa®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/find-an-advisor-who-is-right-for-you/why-work-with-a-cima®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/find-an-advisor-who-is-right-for-you/why-work-with-a-cpwa®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/helping-your-advisor-help-you/why-work-with-a-cima®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/helping-your-advisor-help-you/why-work-with-a-cpwa®-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/quizzes/level-five-advanced-investing",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/quizzes/level-four-intermediate-concepts",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/quizzes/level-one-investing-basics",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/quizzes/level-three-intermediate-investing",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/quizzes/level-two-investing-concepts",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/investors/select-the-right-professional",
+    "to": "https://investmenthelp.org/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/American-Century-Investments/View-American-Century-Investments-White-Paper-Libr",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/Charles-Schwab-Investment-Management/Charles-Schwab-Investment-Management-s-White-Paper",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/John-Hancock-Investment-Management/View-John-Hancock-Investment-Management-s-White-Pa",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/JP-Morgan-Asset-Management/View-JP-Morgan-Asset-Management-s-White-Paper-Libr",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/ProShares/View-ProShares-White-Paper-Library",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/Raymond-James-RIA-Custody-Services-(RCS)-Division/View-Raymond-James-RIA-Custody-Services-(RCS)-Divi",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/Voya-Investment-Management/View-Voya-Investment-Management-s-White-Paper-Libr",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Membership-Publications/Membership/White-Paper-Library/Wells-Fargo-Advisors-Financial-Network/View-Wells-Fargo-Advisors-Financial-Network-s-Whit",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/newsroom/2017/future-of-investment-advice-study-reveals-passive-investment-vehicles-and-strategies,-behavioral-fin",
+    "to": "/2018/future-of-investment-advice-study-reveals-passive-investment-vehicles-and-strategies,-behavioral-fin",
+    "status": 301
+  },
+  {
+    "from": "/News-Room/Social-Profile-Guidance",
+    "to": "https://a-us.storyblok.com/f/1016289/x/be2a341c6f/01-200702-05-0205-marks-usage-guidelines.pdf",
+    "status": 301
+  },
+  {
+    "from": "/private-markets-for-advisors",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-and-Wealth-Monitor/2020/Jul-Aug-Advanced-Asset-Allocation-and-Portfolio-Co",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-and-Wealth-Monitor/2023/Sep-Oct-High-Net-Worth-Ultra-High-Net-Worth-Invest",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-and-Wealth-Monitor/CE-Quizzes",
+    "to": "https://secure.imca.org/eweb/dynamicpage.aspx?WebCode=IMCACEQuizzes",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2018/Issue-3-Measuring-Your-Personal-Return-on-Investme",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2018/Issue-4-Portfolio-Construction-and-the-Planning-Co",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2018/Issue-5-Understanding-the-Affluent-and-High-Net-Wo",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2019/Issue-3-Trends-in-Advisor-Portfolio-Construction-a",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2019/Issue-4-The-Role-of-Behavioral-Finance-in-Advising",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2020/Issue-1-What-Advisors-Need-to-Know-about-Technolog",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2020/Issue-2-Investments-Wealth-Institute-2020-Investor",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2020/Issue-3-The-Evolving-Role-of-Behavioral-Finance-in",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2021/Issue-1-Advisors-and-Investors-Are-Revisiting-Prio",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2021/Issue-2-Trends-in-Investor-Preferences-Gender-Cons",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2021/Issue-3-The-Evolving-Needs-of-Affluent-and-Aging-C",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2021/Issue-4-Investor-Perspectives-on-Retirement-Planni",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2022/Issue-2-2022-Client-Research-The-Evolution-Continu",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2022/Issue-4-The-Investor-Advisor-Disconnect-2022-Advis",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2023/Issue-2-2023-Investor-Research-Celebrating-Success",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Investments-Wealth-Research/2023/Issue-3-Adapting-to-Growing-Private-Markets-A-Play",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/legislative-intelligence",
+    "to": "https://publications.investmentsandwealth.org/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Retirement-Management-Journal/2012/Vol-2,-No-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2012/vol-2,-no-2",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2012/vol-2,-no-3",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Retirement-Management-Journal/2013/Vol-3,-No-1",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/publications/retirement-management-journal/2013/vol-3,-no-2",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2020/Vol-5,-Issue-1-NASAA-Proposes-CE-Requirement-for-I",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2020/Vol-5,-Issue-2-DOL-Opens-Door-to-Private-Equity-Co",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2020/Vol-5,-Issue-3-A-Cautionary-Tale-on-the-Use-of-Alt",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2020/Vol-5,-Issue-4-After-Six-Decades,-the-SEC-Opens-a-",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2021/Vol-6,-Issue-2-Regulatory-Outlook-Modifying-Trump-",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-10-SEC-Risk-Alert-Highlights-Key-Complia",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-11-How-the-Midterms-May-or-May-Not-Impac",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-12-SEC-Moves-Closer-to-DOL-Fiduciary-Req",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-1-DOL-and-SEC-Have-Different-Priorities-",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-2-In-Hughes-v-Northwestern-University,-S",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-3-It’s-Deja-Vu-All-Over-Again-Industry-G",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-4-SEC-Proposes-Emissions-Disclosure-Rule",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-7-SEC,-DOL-Prepare-Heavy-Regulatory-‘To-",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-8-SEC-Proposes-ESG-Disclosures-in-Form-A",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2022/Vol-7,-No-9-Target-Date-Funds-ERISA-Courts-May-Soo",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-10-ESG-Investing-Remains-a-Lightning-Rod",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-11-SEC-Releases-2024-Exam-Priorities-for",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-12-DOL-Releases-Long-Awaited-Fiduciary-R",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-1-DOL-Greenlights-Final-ESG-Rule-for-401",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-2-SECURE-Act-2-0-New-Law-Offers-New-Reti",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-3-SEC-Examination-Priorities-for-2023,-P",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-4-SEC-Risk-Alert-for-New-RIAs-Offers-Rem",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-5-Debt-Ceiling-Deja-Vu-Will-2023-Repeat-",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-6-When-Is-Rollover-Advice-a-Fiduciary-Ac",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-7-SEC-Panel-Reviews-New-Oversight-Option",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-8-SEC-Proposes-Predictive-Data-Analytics",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/2023/Vol-8,-No-9-One-Year-Later,-Wave-of-BlackRock-Targ",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Publications/Washington-Insights/About-Washington-Insights",
+    "to": "https://publications.investmentsandwealth.org/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/socialguidance",
+    "to": "https://a-us.storyblok.com/f/1016289/x/be2a341c6f/01-200702-05-0205-marks-usage-guidelines.pdf",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/guidance-for-marks-use",
+    "to": "https://a-us.storyblok.com/f/1016289/x/be2a341c6f/01-200702-05-0205-marks-usage-guidelines.pdf",
+    "status": 301
+  },
+  {
+    "from": "/ethics-standards/guidance-for-the-code",
+    "to": "https://a-us.storyblok.com/f/1016289/x/11c516092f/01-200208-04-0545-ctrl-code-of-pr_2.pdf",
+    "status": 301
+  },
+  {
+    "from": "/getmedia/6771d38b-4db7-4575-8ab3-1a709569c8f7/Investor-Research-2020-IWI-Executive-Summary-FINAL-6-2-2020.pdf",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/getattachment/CPWA/CPWA-Certificants-Resources/CPWA-onepager-(002).pdf",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/getattachment/CPWA/CPWA-Certificants-Resources/CPWA-BW.jpg",
+    "to": "/certifications/cima-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/getattachment/Are-You-an-Exceptional-Advisor-Communicate-Your-Va/Helpful-Research/The-Research-Reports/2020-Value-of-CIMA-and-CPWA.pdf",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/getmedia/f7200ca6-1097-4481-90ad-4787e2397eee/Defining-Future-of-WM.pdf",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/item/future_wm2020/4141491/",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/understand-what-clients-need-value/exceptional-advisor-online-course",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/learning/online-learning/one-hour-on-demand-ce/ethics-and-the-financial-crisis-(ethics)-en",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/publications/investment-sense-blog",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/cpwa/resources-for-cpwa-certificants",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/learning/online-education/one-hour-ethics-on-demand",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/rma-en",
+    "to": "/certifications/rma-certification",
+    "status": 301
+  },
+  {
+    "from": "/ea",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/learning/live-learning",
+    "to": "/online-learning-financial-advisor-ce/webinars",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/tdainstitutional.com",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/Conferences/2018/Wealth-Advisor-Forum/Speakers/Michael-Casey",
+    "to": "/online-learning-financial-advisor-ce/webinars",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/delawarefunds.com",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/cpwa/cpwa-certificants-resources",
+    "to": "/certifications/cpwa-certification/client-and-marketing-resources",
+    "status": 301
+  },
+  {
+    "from": "/content.investmentsandwealth.org/toronto-2022",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/learning/online-education/online-catalog/the-behavioral-advisor-on-demand",
+    "to": "/online-learning-financial-advisor-ce",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2019/schwabfunds.com/welcome-alternative",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/ace",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences/2018/Wealth-Advisor-Forum/Speakers/Howard-Fineman",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences/2018/Wealth-Advisor-Forum/Speakers/Rabbi-Steven-Leder",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences/2018/Wealth-Advisor-Forum/Speakers/Marci-Rossell",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/rmf",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/baf2019",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferencecalendar-1",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences/2018/Wealth-Advisor-Forum/Speakers/Kimberly-Lear",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/learning/online-learning/on-demand-ce-library/behavioral-finance-for-advisors-on-demand",
+    "to": "/online-learning-financial-advisor-ce/on-demand-bundles",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/wealth-advisor-forum/pages/continuing-education",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/cima/ce-reporting-changes",
+    "to": "/certifications/cima-certification/faq",
+    "status": 301
+  },
+  {
+    "from": "/privatewealthessentials",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/schedule",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/online-catalog/online-catalog/the-behavioral-advisor-on-demand",
+    "to": "/online-learning-financial-advisor-ce/on-demand-bundles",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/pages/pre-conference-workshops",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2018/2018-annual-conference-experience/registration",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/Conferences/2018/2018-Annual-Conference-Experience/Registration",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/news-room/podcast-library/exceptional-advisor-podcast-series-—-season-2",
+    "to": "/advisor-publications/exceptional-advisor-podcast",
+    "status": 301
+  },
+  {
+    "from": "/cpwa/cpwa-core-topics",
+    "to": "/about/body-of-knowledge",
+    "status": 301
+  },
+  {
+    "from": "/membership-publications/membership/membership/membership/alignment",
+    "to": "/membership",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2021/2021-investment-advisor-forum/www.raymondjamesria.com",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2021/2021-investment-advisor-forum/www.osterweis.com",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/conferences/2021/2021-investment-advisor-forum/www.americancentury.com",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/learning/live-learning/conference-calendar/conference-calendar",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/author/robert-j.-powell",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/author/gale-a.-britton-managing-partner-gbdi-llc",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/author/daniel-crosby-ph.d.-chief-behavioral-officer-orion-advisor-solutions",
+    "to": "/advisor-publications/blog",
+    "status": 301
+  },
+  {
+    "from": "/iaf2021-wiw",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/di-week-2021",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit",
+    "to": "/certifications/market-yourself",
+    "status": 301
+  },
+  {
+    "from": "/publications/investments-and-wealth-monitor/2016/mar-apr-institutional-foundations-and-endowments",
+    "to": "https://www.iwmonitor-digital.com/iwmonitor/library/",
+    "status": 301
+  },
+  {
+    "from": "/wiw-week",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/new-york-strategy-forum-2023-robert-powell",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/exceptional-advisor-toolkit/understand-what-clients-need-value/exceptional-advisor-online-course",
+    "to": "https://education.investmentsandwealth.org/learn",
+    "status": 301
+  },
+  {
+    "from": "/new-york-strategy-forum-2023-steve-resch",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/behavioral-advisor-forum",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/corey-ciocchettit",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/stevesiege",
+    "to": "/financial-advisor-conferences-events",
+    "status": 301
+  },
+  {
+    "from": "/login",
+    "to": "https://portal.investmentsandwealth.org/s/login/?startURL=%2Fs%2Fhome-page",
+    "status": 301
+  },
+  {
+    "from": "/user-account/create",
+    "to": "https://secure.imca.org/eweb/DynamicPage.aspx?WebCode=verify&amp;Site=IW",
+    "status": 301
+  },
+  {
+    "from": "/investors/investor-resources/find-an-exceptional-advisor/why-work-with-a-cpwa%c2%ae-professional",
+    "to": "/",
+    "status": 302
+  },
+  {
+    "from": "/getmedia/70ba2ffb-038a-4d64-94f5-a991d0882011/01-180620-03-0890ctrl-cpwa-client-brochure",
+    "to": "/",
+    "status": 302
+  }
+]

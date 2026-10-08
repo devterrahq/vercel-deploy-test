@@ -1,0 +1,72 @@
+@import 'site-text-colors';
+@import 'site-background-colors';
+@import 'site-richtext-classes';
+@import 'site-text-sizes';
+@import 'site-border-colors';
+
+/**
+ * Datasource: Site Text Align
+*/
+$text-align: (
+  left: left,
+  center: center,
+  right: right,
+  justify: justify,
+);
+@each $align, $value in $text-align {
+  .text-#{$align} {
+    text-align: #{$value};
+  }
+}
+
+/**
+ * Datasource: Site Order
+*/
+$site-utils: (
+  'align-items': (
+    responsive: true,
+    property: align-items,
+    class: align-items,
+    values: (
+      start: flex-start,
+      center: center,
+      end: flex-end,
+    ),
+  ),
+  'justify-content': (
+    responsive: true,
+    property: justify-content,
+    class: justify-content,
+    values: (
+      start: flex-start,
+      center: center,
+      end: flex-end,
+    ),
+  ),
+  'flex-direction': (
+    responsive: true,
+    property: flex-direction,
+    class: flex,
+    values: (
+      row: row,
+      column: column,
+      'row-reverse': row-reverse,
+      'column-reverse': column-reverse,
+    ),
+  ),
+  'order': (
+    responsive: true,
+    property: order,
+    class: order,
+    values: (
+      first: -1,
+      1: 1,
+      2: 2,
+      3: 3,
+      4: 4,
+      5: 5,
+      last: 6,
+    )
+  ),
+);
+@include createUtils($site-utils);

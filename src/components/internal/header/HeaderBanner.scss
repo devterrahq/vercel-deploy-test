@@ -1,0 +1,58 @@
+.c--banner-a {
+  padding: $measure * 2 0;
+  background-color: $bgDarkBlue;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  line-height: normal;
+  color: $txtWhite;
+  text-align: center;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: $measure $measure * 3;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: $measure * 0.5;
+
+      p {
+        margin: 0;
+        font-size: inherit;
+        line-height: inherit;
+        color: inherit;
+      }
+
+      b,
+      strong {
+        font-weight: 700;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+    }
+
+    &__link {
+      flex-shrink: 0;
+      font-weight: 500;
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: $iwiYellow;
+      text-decoration-thickness: 7%;
+      text-underline-offset: 3px;
+      white-space: nowrap;
+      transition: text-decoration-color 0.2s ease;
+
+      &:hover,
+      &:focus-visible {
+        color: inherit;
+        text-decoration-color: currentColor;
+      }
+    }
+  }
+}

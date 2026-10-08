@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Default",
+    "value": {
+      "default": {
+        "value": "column"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": null
+      },
+      "lg": {
+        "value": "row"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "Reverse Mobile",
+    "value": {
+      "default": {
+        "value": "column-reverse"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": null
+      },
+      "lg": {
+        "value": "row"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "Reverse Desktop",
+    "value": {
+      "default": {
+        "value": "column"
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": null
+      },
+      "lg": {
+        "value": "row-reverse"
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  },
+  {
+    "name": "Show Advanced Controls",
+    "value": {
+      "default": {
+        "value": null
+      },
+      "sm": {
+        "value": null
+      },
+      "md": {
+        "value": null
+      },
+      "lg": {
+        "value": null
+      },
+      "xl": {
+        "value": null
+      },
+      "xxl": {
+        "value": null
+      }
+    }
+  }
+]

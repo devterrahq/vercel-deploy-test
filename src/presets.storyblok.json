@@ -1,0 +1,265 @@
+{
+  "presets": [
+    {
+      "id": 1205,
+      "name": "Blue Theme",
+      "preset": {
+        "_uid": "2c5788d2-6233-429d-bbfd-b3188ef07de8",
+        "component": "panel_testimonial",
+        "background": "",
+        "footer_width": "",
+        "header_width": "",
+        "footer_content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "header_content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "top_bar_height": "",
+        "panel_text_color": "",
+        "parallax_enabled": false,
+        "quote_text_color": "light-gray-blue",
+        "testimonial_data": "275edd6a-b40e-4180-958f-3955ec2551a6",
+        "title_text_color": "yellow",
+        "bottom_bar_height": "",
+        "panel_padding_top": "md",
+        "panel_padding_bottom": "md",
+        "description_text_color": "white",
+        "panel_background_color": "blue",
+        "panel_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "footer_content_alignment": "",
+        "header_content_alignment": "",
+        "top_bar_background_color": "",
+        "top_bar_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "panel_background_position": "scroll",
+        "bottom_bar_background_color": "",
+        "bottom_bar_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        }
+      },
+      "component_id": 103045,
+      "space_id": 1016289,
+      "created_at": "2023-10-03T17:29:05.728Z",
+      "updated_at": "2023-10-03T17:29:05.728Z",
+      "image": "//a-us.storyblok.com/f/1016289/x/a4e7e5a55b/screenshot_iwi_testimonial_blue_preset.png",
+      "color": "",
+      "icon": "",
+      "description": ""
+    },
+    {
+      "id": 1204,
+      "name": "Dark Blue Theme",
+      "preset": {
+        "_uid": "2c5788d2-6233-429d-bbfd-b3188ef07de8",
+        "component": "panel_testimonial",
+        "background": "",
+        "footer_width": "",
+        "header_width": "",
+        "footer_content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "header_content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "top_bar_height": "",
+        "panel_text_color": "",
+        "parallax_enabled": false,
+        "quote_text_color": "light-gray-blue",
+        "testimonial_data": "275edd6a-b40e-4180-958f-3955ec2551a6",
+        "title_text_color": "yellow",
+        "bottom_bar_height": "",
+        "panel_padding_top": "md",
+        "panel_padding_bottom": "md",
+        "description_text_color": "white",
+        "panel_background_color": "dark-blue",
+        "panel_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "footer_content_alignment": "",
+        "header_content_alignment": "",
+        "top_bar_background_color": "",
+        "top_bar_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "panel_background_position": "scroll",
+        "bottom_bar_background_color": "",
+        "bottom_bar_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        }
+      },
+      "component_id": 103045,
+      "space_id": 1016289,
+      "created_at": "2023-10-03T17:21:24.179Z",
+      "updated_at": "2023-10-03T19:21:05.108Z",
+      "image": "//a-us.storyblok.com/f/1016289/x/6dbff9d5fc/screenshot_iwi_testimonial_dark_navy_preset.png",
+      "color": "",
+      "icon": "",
+      "description": ""
+    },
+    {
+      "id": 1207,
+      "name": "Light Blue",
+      "preset": {
+        "_uid": "2c5788d2-6233-429d-bbfd-b3188ef07de8",
+        "component": "panel_testimonial",
+        "background": "",
+        "footer_width": "",
+        "header_width": "",
+        "footer_content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "header_content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "top_bar_height": "",
+        "panel_text_color": "",
+        "parallax_enabled": false,
+        "quote_text_color": "dark-navy",
+        "testimonial_data": "275edd6a-b40e-4180-958f-3955ec2551a6",
+        "title_text_color": "dark-navy",
+        "bottom_bar_height": "",
+        "panel_padding_top": "md",
+        "panel_padding_bottom": "md",
+        "description_text_color": "dark-navy",
+        "panel_background_color": "light-blue",
+        "panel_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "footer_content_alignment": "",
+        "header_content_alignment": "",
+        "top_bar_background_color": "",
+        "top_bar_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        },
+        "panel_background_position": "scroll",
+        "bottom_bar_background_color": "",
+        "bottom_bar_background_image": {
+          "id": null,
+          "alt": null,
+          "name": "",
+          "focus": null,
+          "title": null,
+          "source": null,
+          "filename": "",
+          "copyright": null,
+          "fieldtype": "asset",
+          "meta_data": {}
+        }
+      },
+      "component_id": 103045,
+      "space_id": 1016289,
+      "created_at": "2023-10-03T19:24:19.962Z",
+      "updated_at": "2023-10-03T19:24:19.962Z",
+      "image": "//a-us.storyblok.com/f/1016289/x/885e50b7dd/screenshot_iwi_testimonial_light_blue_preset.png",
+      "color": "",
+      "icon": "",
+      "description": ""
+    }
+  ]
+}

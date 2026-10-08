@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Small",
+    "value": "sm"
+  },
+  {
+    "name": "Medium",
+    "value": "md"
+  },
+  {
+    "name": "Large",
+    "value": "lg"
+  }
+]

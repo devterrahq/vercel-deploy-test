@@ -1,0 +1,16 @@
+.panel-text-widget-grid--grid {
+  padding-top: 30px;
+  @include media-breakpoint-up(lg) {
+    padding-top: 0px;
+  }
+  >*:not(:first-child) {
+    margin-top: 30px;
+    @include media-breakpoint-up(md) {
+          margin-top: 0px;
+        }
+  }
+}
+
+.text-widget-grid-reverse {
+  flex-direction: row-reverse;
+}

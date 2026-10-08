@@ -1,0 +1,78 @@
+// Abstracts
+@import 'abstracts';
+
+// Reset
+@import 'modern-normalize/modern-normalize.css';
+
+// Third Party Librariers
+@import 'libs/bootstrap';
+@import 'libs/animate.scss';
+
+// Default Typography
+@import 'typography';
+
+// Sitewide Datasources
+@import 'site-datasources';
+
+// Sitewide Components
+@import 'components';
+
+html {
+  scroll-padding-top: 65px;
+  @include media-breakpoint-up(md) {
+    scroll-padding-top: 150px;
+  }
+}
+
+main {
+  max-width: 2400px;
+  margin: 0 auto;
+}
+
+.richtext-margin-helper,
+.panel-header > div,
+.panel-footer > div{
+  >*:first-child {
+    margin-top: 0px;
+  }
+  >*:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.responsive-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0px;
+
+  video, iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+video, iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+.video-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}

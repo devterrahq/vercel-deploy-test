@@ -1,0 +1,302 @@
+
+button.btn {
+  background: none;
+}
+button.btn:not(:disabled):hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+a {
+  color: $txtNavy;
+  text-decoration: underline;
+}
+a.btn {
+  text-decoration: none;
+}
+a.btn:not(:disabled) {
+  cursor: pointer;
+}
+.btn svg path{
+  transition: all 200ms ease-in;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 200ms ease-in;
+  margin-top: 8px;
+  border: 1px solid transparent;
+
+  &.button-lg {
+    &.button-solid,
+    &.button-outline {
+      padding: 12px 32px;
+      font-size: 18px;
+    }
+    &.text-link-navy,
+    &.text-link-white {
+      font-size: 16px;
+    }
+  }
+  &.button-sm {
+    &.button-solid,
+    &.button-outline {
+      padding: 6px 32px;
+      line-height: 21px;
+    }
+    &.text-link-navy,
+    &.text-link-white {
+      font-size: 14px;
+    }
+  }
+  &.button-solid {
+    background-color: $iwiDkNavy;
+    color: $white;
+    border-radius: 5px;
+    // outline: 1px solid transparent;
+    & path {
+      fill: $white;
+    }
+    &:hover {
+      background-color: transparent;
+      border-color: $iwiDkNavy;
+      color: $iwiDkNavy;
+      & path {
+        fill: $iwiDkNavy;
+      }
+    }
+  }
+  &.button-outline {
+    // outline-color: transparent;
+    color: $iwiDkNavy;
+    border-radius: 5px;
+    border-color: $iwiDkNavy;
+    & path {
+      fill: $iwiDkNavy;
+    }
+    &:hover {
+      background-color: $iwiDkNavy;
+      color: $white;
+      & path {
+        fill: $white;
+      }
+    }
+  }
+  &.text-link-navy,
+  &.text-link-white,
+  &.text-link-blue {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.24px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &.text-link-navy {
+    color: $txtNavy;
+    & path {
+      fill: $txtNavy;
+    }
+  }
+  &.text-link-white {
+    color: $white;
+    & path {
+      fill: $white;
+    }
+  }
+  &.text-link-blue {
+    color: $iwiCimaBlue;
+    & path {
+      fill: $iwiCimaBlue;
+    }
+  }
+  .btn-flex-box {
+    display: inline-flex;
+    overflow-wrap: normal;
+    align-items: center;
+    min-height: 24px;
+  }
+  .btn-no-flex {
+    display: inline;
+  }
+  .before-icon,
+  .after-icon {
+    // display: inline-block;
+    svg {
+      position: relative;
+      vertical-align: middle;
+      bottom: 2px;
+    }
+  }
+  .after-icon {
+    margin-left: 8px;
+  }
+  .before-icon {
+    margin-right: 8px;
+  }
+}
+.btn-space {
+  &-right {
+    margin-right: 20px;
+  }
+  &-left {
+    margin-left: 20px;
+  }
+  &-both {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.btn-place-on-new-line {
+  margin-top: 16px;
+  &:before{
+    content: "\a";
+  }
+}
+
+//footer buttons//
+.footer-button {
+  .btn {
+    &.text-link-navy,
+    &.text-link-white,
+    &.text-link-blue {
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: normal;
+      padding: 0;
+
+      &.btn-with-icon {
+        display: flex;
+        column-gap: 12px;
+
+        svg {
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}
+
+// OVERRIDES //
+// CIMA //
+.override {
+  &-cima {
+    &.button-solid {
+      background-color: $iwiCimaBlue !important;
+      color: $white !important;
+      & path {
+        fill: $white !important;
+      }
+      &:hover {
+        background-color: transparent !important;
+        border-color: $iwiCimaBlue;
+        color: $iwiCimaBlue !important;
+        & path {
+          fill: $iwiCimaBlue !important;
+        }
+      }
+    }
+    &.button-outline {
+      color: $iwiCimaBlue;
+      border-radius: 5px;
+      border: 1px solid $iwiCimaBlue;
+      & path {
+        fill: $iwiCimaBlue;
+      }
+      &:hover {
+        background-color: $iwiCimaBlue;
+        color: $white;
+        & path {
+          fill: $white;
+        }
+      }
+    }
+    &.text-link-navy, .text-link-white {
+      color: $iwiCimaBlue;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // CPWA //
+  &-cpwa {
+    &.button-solid {
+      background-color: $cpwaMaroon !important;
+      color: $white !important;
+      & path {
+        fill: $white !important;
+      }
+      &:hover {
+        background-color: transparent !important;
+        border-color: $cpwaMaroon;
+        color: $cpwaMaroon !important;
+        & path {
+          fill: $cpwaMaroon !important;
+        }
+      }
+    }
+    &.button-outline {
+      color: $cpwaMaroon;
+      border-radius: 5px;
+      border-color: $cpwaMaroon;
+      & path {
+        fill: $cpwaMaroon;
+      }
+      &:hover {
+        background-color: $cpwaMaroon;
+        color: $white;
+        & path {
+          fill: $white;
+        }
+      }
+    }
+    &.text-link-navy, .text-link-white {
+      color: $cpwaMaroon;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  // RMA //
+  &-rma {
+    &.button-solid {
+      background-color: $rmaRust !important;
+      color: $white !important;
+      border-color: $rmaRust;
+      & path {
+        fill: $white !important;
+      }
+      &:hover {
+        background-color: transparent !important;
+        color: $rmaRust !important;
+        & path {
+          fill: $rmaRust !important;
+        }
+      }
+    }
+    &.button-outline {
+      color: $rmaRust;
+      border-radius: 5px;
+      border-color: $rmaRust;
+      & path {
+        fill: $rmaRust;
+      }
+      &:hover {
+        background-color: $rmaRust;
+        color: $white;
+        & path {
+          fill: $white;
+        }
+      }
+    }
+    &.text-link-navy, .text-link-white {
+      color: $rmaRust;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+.widget-cta_card__root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 16px 0;
+
+  .__text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 10px;
+
+    .cert-headline {
+      :nth-child(n) {
+        margin: 0 auto 16px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+    .cert-body {
+      margin-top: 16px;
+      :nth-child(n) {
+        margin: 0 auto 16px;
+      }
+      :last-child {
+        margin: 0 auto 20px
+      }
+    }
+    .cert-link {
+      margin: auto;
+      margin-bottom: 0;
+      text-decoration: none;
+      color: $white;
+      width: 167px;
+      padding: 12px 32px;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+  }
+
+  &.cima {
+    .cert-headline {
+      :nth-child(n) {
+        color: $iwiCimaBlue;
+      }
+    }
+    .cert-link {
+      background-color: $iwiCimaBlue;
+      &:hover {
+        background-color: transparent;
+        color: $iwiCimaBlue;
+        outline: 1px solid $iwiCimaBlue;
+      }
+    }
+  }
+
+  &.cpwa {
+    .cert-headline {
+      :nth-child(n) {
+        color: $cpwaMaroon;
+      }
+    }
+    .cert-link {
+      background-color: $cpwaMaroon;
+      &:hover {
+        background-color: transparent;
+        color: $cpwaMaroon;
+        outline: 1px solid $cpwaMaroon;
+      }
+    }
+  }
+
+  &.rma {
+    .cert-headline {
+      :nth-child(n) {
+        color: $rmaRust;
+      }
+    }
+    .cert-link {
+      background-color: $rmaRust;
+      &:hover {
+        background-color: transparent;
+        color: $rmaRust;
+        outline: 1px solid $rmaRust;
+      }
+    }
+  }
+
+  .__img {
+    order: -1;
+    position: relative;
+    height: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .cert-wrapper {
+      width: 64%;
+      position: relative;
+      margin: 0 auto -35px;
+      top: -35px;
+
+      svg {
+        display: block;
+        padding: 4px;
+        width: 100%;
+        height: auto;
+        background-color: $white;
+      }
+    }
+  }
+}

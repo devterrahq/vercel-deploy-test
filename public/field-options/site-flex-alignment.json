@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Start",
+    "value": "start"
+  },
+  {
+    "name": "Center",
+    "value": "center"
+  },
+  {
+    "name": "End",
+    "value": "end"
+  }
+]
