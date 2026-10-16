@@ -100,7 +100,7 @@
     "react-instantsearch-nextjs": "0.1.4",
     "sass": "^1.62.1",
     "server-only": "^0.0.1",
-    "storyblok-js-client": "6.6.2",
+    "storyblok-js-client": "6.11.0",
     "storyblok-next-image": "^1.0.3",
     "storyblok-rich-text-react-renderer": "^2.8.0",
     "swiper": "^11.2.10",

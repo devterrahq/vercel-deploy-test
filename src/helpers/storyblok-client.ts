@@ -3,6 +3,9 @@ import { StoryblokErrorSchema } from './storyblok-schema';
 import type { SBStoryData } from '@/types';
 import type { ISbStories } from 'storyblok-js-client';
 
+/** Cache tag carried by every Storyblok fetch. The webhook revalidates it on every story event. */
+export const STORYBLOK_CACHE_TAG = 'storyblok';
+
 interface StoryblokClientOptions {
   fetchOptions?: RequestInit;
   nextOptions?: NextFetchRequestConfig;
@@ -43,7 +46,11 @@ export function getStoryblokClient(options: StoryblokClientOptions = {}): Storyb
       return fetch(updatedInput, {
         ...init,
         ...(fetchOptions ? fetchOptions : {}),
-        ...(nextOptions ? { next: nextOptions } : {}),
+        next: {
+          ...nextOptions,
+          // First, so it survives Next.js dropping tags past its per-fetch limit
+          tags: [STORYBLOK_CACHE_TAG, ...(nextOptions?.tags ?? [])],
+        },
       });
     },
   });

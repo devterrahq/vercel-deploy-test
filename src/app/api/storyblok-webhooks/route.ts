@@ -1,6 +1,11 @@
 import { createHmac } from 'crypto';
 import { SiteSearchHandler } from '@/helpers/algolia/site-search-handler';
-import { fetchAllPages, getStoryblokClient, handleStoryblokRequest } from '@/helpers/storyblok-client';
+import {
+  fetchAllPages,
+  getStoryblokClient,
+  handleStoryblokRequest,
+  STORYBLOK_CACHE_TAG,
+} from '@/helpers/storyblok-client';
 import { EventSchema, StoryblokErrorSchema } from '@/helpers/storyblok-schema';
 import chalk from 'chalk';
 import { revalidatePath, revalidateTag } from 'next/cache';
@@ -119,6 +124,12 @@ async function processWebhookEvent(webhookEvent: z.infer<typeof EventSchema>, gu
         webhookEvent.action === 'unpublished' ||
         webhookEvent.action === 'deleted')
     ) {
+      // === SITE-WIDE REVALIDATION === //
+      // Runs before the story lookup: a deleted story can't be fetched, so the per-story revalidation finds nothing.
+      revalidateTag(STORYBLOK_CACHE_TAG);
+      revalidatePath('/', 'layout');
+      console.log(chalk.green(`Revalidated all Storyblok content (tag: ${STORYBLOK_CACHE_TAG}) for ${guid}`));
+
       const data = await getStoryblokData({
         storyId: webhookEvent.story_id,
         fullSlug: webhookEvent.full_slug,
